@@ -1,0 +1,17 @@
+[
+    {
+        "id": "ian-mondragon-shem",
+        "name": "Ian Mondragon-Shem",
+        "role": "Principal Investigator",
+        "title": "Assistant Professor",
+        "affiliation": "Department of Electrical and Computer Engineering, UIC",
+        "bio": "Ian Mondragon-Shem works at the interface of theoretical condensed matter physics and quantum information science. His research focuses on superconducting circuits, non-equilibrium quantum systems, and topological phases. Previously a postdoc at Northwestern, Argonne, and Yale.",
+        "image": "/assets/ian.jpg",
+        "links": {
+            "scholar": "https://scholar.google.com/citations?user=ZOGF2S4AAAAJ&hl=en",
+            "linkedin": "https://www.linkedin.com/in/ian-mondragon-shem-199225132",
+            "email": "mailto:ids@uic.edu",
+            "cv": "/assets/CV_IanMondragon.pdf"
+        }
+    }
+]
