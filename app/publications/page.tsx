@@ -24,8 +24,8 @@ export default function Publications() {
                                 <span className="font-medium text-primary dark:text-gray-200 italic">
                                     {pub.journal} ({pub.year})
                                 </span>
-                                {pub.url && (
-                                    <Link href={pub.url} className="flex items-center gap-1 text-accent hover:text-accent-hover">
+                                {(pub.doi || pub.pdf) && (
+                                    <Link href={pub.doi || pub.pdf || '#'} className="flex items-center gap-1 text-accent hover:text-accent-hover">
                                         <ExternalLink className="h-4 w-4" /> View Paper
                                     </Link>
                                 )}
