@@ -1,15 +1,466 @@
 [
-    {
-        "id": "1",
-        "title": "Example Publication: Topological Phases in Superconducting Circuits",
-        "authors": [
-            "Ian Mondragon-Shem",
-            "Collaborator A",
-            "Collaborator B"
-        ],
-        "journal": "Physical Review B",
-        "year": 2024,
-        "url": "https://arxiv.org",
-        "doi": "10.1103/PhysRevB.00.000000"
-    }
+  {
+    "id": "https://openalex.org/W2954113871",
+    "title": "Robust topological invariants of topological crystalline phases in the presence of impurities",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Taylor L. Hughes"
+    ],
+    "journal": "Physical review. B./Physical review. B",
+    "year": 2024,
+    "date": "2024-07-18",
+    "doi": "https://doi.org/10.1103/physrevb.110.035146",
+    "pdf": null
+  },
+  {
+    "id": "https://openalex.org/W4297100842",
+    "title": "Computer-aided quantization and numerical analysis of superconducting circuits",
+    "authors": [
+      "Sai Pavan Chitta",
+      "Tianpu Zhao",
+      "Ziwen Huang",
+      "Ian Mondragon-Shem",
+      "Jens Koch"
+    ],
+    "journal": "New Journal of Physics",
+    "year": 2022,
+    "date": "2022-09-26",
+    "doi": "https://doi.org/10.1088/1367-2630/ac94f2",
+    "pdf": "https://iopscience.iop.org/article/10.1088/1367-2630/ac94f2/pdf"
+  },
+  {
+    "id": "https://openalex.org/W4293574814",
+    "title": "Local imaging of diamagnetism in proximity-coupled niobium nanoisland arrays on gold thin films",
+    "authors": [
+      "Logan Bishop-Van Horn",
+      "Irene P. Zhang",
+      "Emily N. Waite",
+      "Ian Mondragon-Shem",
+      "Scott Jensen",
+      "Junseok Oh",
+      "Tom Lippman",
+      "Malcolm Durkin",
+      "Taylor L. Hughes",
+      "Nadya Mason",
+      "Kathryn A. Moler",
+      "Ilya Sochnikov"
+    ],
+    "journal": "Physical review. B./Physical review. B",
+    "year": 2022,
+    "date": "2022-08-30",
+    "doi": "https://doi.org/10.1103/physrevb.106.054521",
+    "pdf": "https://www.osti.gov/biblio/1884554"
+  },
+  {
+    "id": "https://openalex.org/W4292719459",
+    "title": "Local imaging of diamagnetism in proximity coupled niobium nano-island arrays on gold thin films",
+    "authors": [
+      "Logan Bishop-Van Horn",
+      "Irene P. Zhang",
+      "Emily N. Waite",
+      "Ian Mondragon-Shem",
+      "Scott Jensen",
+      "Junseok Oh",
+      "Tom Lippman",
+      "Malcolm Durkin",
+      "Taylor L. Hughes",
+      "Nadya Mason",
+      "Kathryn A. Moler",
+      "Ilya Sochnikov"
+    ],
+    "journal": "arXiv (Cornell University)",
+    "year": 2022,
+    "date": "2022-08-18",
+    "doi": "https://doi.org/10.48550/arxiv.2208.09084",
+    "pdf": "https://arxiv.org/pdf/2208.09084"
+  },
+  {
+    "id": "https://openalex.org/W4283068203",
+    "title": "Computer-aided quantization and numerical analysis of superconducting circuits",
+    "authors": [
+      "Sai Pavan Chitta",
+      "Tianpu Zhao",
+      "Ziwen Huang",
+      "Ian Mondragon-Shem",
+      "Jens Koch"
+    ],
+    "journal": "arXiv (Cornell University)",
+    "year": 2022,
+    "date": "2022-06-16",
+    "doi": "https://doi.org/10.48550/arxiv.2206.08320",
+    "pdf": "https://arxiv.org/pdf/2206.08320"
+  },
+  {
+    "id": "https://openalex.org/W3173518893",
+    "title": "Imaging and controlling vortex dynamics in mesoscopic superconductor\u2013normal-metal\u2013superconductor arrays",
+    "authors": [
+      "Tyler R. Naibert",
+      "Hryhoriy Polshyn",
+      "Rita Garrido-Menacho",
+      "Malcolm Durkin",
+      "Brian Wolin",
+      "Victor Chua",
+      "Ian Mondragon-Shem",
+      "Taylor L. Hughes",
+      "Nadya Mason",
+      "Raffi Budakian"
+    ],
+    "journal": "Physical review. B./Physical review. B",
+    "year": 2021,
+    "date": "2021-06-24",
+    "doi": "https://doi.org/10.1103/physrevb.103.224526",
+    "pdf": "https://arxiv.org/pdf/1705.08956"
+  },
+  {
+    "id": "https://openalex.org/W4288301531",
+    "title": "Robust topological invariants of topological crystalline phases in the presence of impurities",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Taylor L. Hughes"
+    ],
+    "journal": "arXiv (Cornell University)",
+    "year": 2019,
+    "date": "2019-06-27",
+    "doi": "https://doi.org/10.48550/arxiv.1906.11847",
+    "pdf": "https://arxiv.org/pdf/1906.11847"
+  },
+  {
+    "id": "https://openalex.org/W2902952603",
+    "title": "Quantized frequency-domain polarization of driven phases of matter",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Ivar Martin",
+      "A. Alexandradinata",
+      "Meng Cheng"
+    ],
+    "journal": "arXiv (Cornell University)",
+    "year": 2018,
+    "date": "2018-11-26",
+    "doi": "https://doi.org/10.48550/arxiv.1811.10632",
+    "pdf": "https://arxiv.org/pdf/1811.10632"
+  },
+  {
+    "id": "https://openalex.org/W2744138385",
+    "title": "Observation of domain wall motion in a polycrystalline vortex lattice",
+    "authors": [
+      "Malcolm Durkin",
+      "Ian Mondragon-Shem",
+      "Taylor L. Hughes",
+      "Nadya Mason"
+    ],
+    "journal": "arXiv (Cornell University)",
+    "year": 2017,
+    "date": "2017-08-10",
+    "doi": "https://doi.org/10.48550/arxiv.1708.03082",
+    "pdf": "https://arxiv.org/pdf/1708.03082"
+  },
+  {
+    "id": "https://openalex.org/W2619088898",
+    "title": "$\\Phi_0$-Magnetic Force Microscopy for Imaging and Control of Vortex Dynamics",
+    "authors": [
+      "Tyler R. Naibert",
+      "Hryhoriy Polshyn",
+      "Malcolm Durkin",
+      "Brian Wolin",
+      "Rita Garrido-Menacho",
+      "Victor Chua",
+      "Ian Mondragon-Shem",
+      "Taylor L. Hughes",
+      "Nadya Mason",
+      "Raffi Budakian"
+    ],
+    "journal": "arXiv (Cornell University)",
+    "year": 2017,
+    "date": "2017-05-24",
+    "doi": null,
+    "pdf": "http://export.arxiv.org/pdf/1705.08956"
+  },
+  {
+    "id": "https://openalex.org/W3160798730",
+    "title": "Polycrystalline order and disorder in vortex lattices in SNS arrays",
+    "authors": [
+      "Malcolm Durkin",
+      "Ian Mondragon-Shem",
+      "Taylor L. Hughes",
+      "Nadya Mason"
+    ],
+    "journal": "APS March Meeting Abstracts",
+    "year": 2017,
+    "date": "2017-03-01",
+    "doi": null,
+    "pdf": null
+  },
+  {
+    "id": "https://openalex.org/W2342353946",
+    "title": "History-dependent dissipative vortex dynamics in superconducting arrays",
+    "authors": [
+      "Malcolm Durkin",
+      "Ian Mondragon-Shem",
+      "Serena Eley",
+      "Taylor L. Hughes",
+      "Nadya Mason"
+    ],
+    "journal": "Physical review. B./Physical review. B",
+    "year": 2016,
+    "date": "2016-07-14",
+    "doi": "https://doi.org/10.1103/physrevb.94.024510",
+    "pdf": "https://arxiv.org/pdf/1512.02704"
+  },
+  {
+    "id": "https://openalex.org/W2601827744",
+    "title": "Dissipative vortex dynamics in overdamped superconducting arrays",
+    "authors": [
+      "Malcolm Durkin",
+      "Ian Mondragon-Shem",
+      "Serena Eley",
+      "Taylor L. Hughes",
+      "Nadya Mason"
+    ],
+    "journal": "Bulletin of the American Physical Society",
+    "year": 2016,
+    "date": "2016-03-15",
+    "doi": null,
+    "pdf": null
+  },
+  {
+    "id": "https://openalex.org/W3007015845",
+    "title": "Disordered topological crystalline phases",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Taylor L. Hughes"
+    ],
+    "journal": "APS",
+    "year": 2016,
+    "date": "2016-01-01",
+    "doi": null,
+    "pdf": null
+  },
+  {
+    "id": "https://openalex.org/W2898930953",
+    "title": "Dissipative vortex dynamics in superconducting arrays",
+    "authors": [
+      "Malcolm Durkin",
+      "Ian Mondragon-Shem",
+      "Serena Eley",
+      "Taylor L. Hughes",
+      "Nadya Mason"
+    ],
+    "journal": "arXiv (Cornell University)",
+    "year": 2015,
+    "date": "2015-12-09",
+    "doi": null,
+    "pdf": "https://arxiv.org/abs/1512.02704v1"
+  },
+  {
+    "id": "https://openalex.org/W1757659697",
+    "title": "Many-body mobility edge due to symmetry-constrained dynamics and strong interactions",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Arijeet Pal",
+      "Taylor L. Hughes",
+      "Chris R. Laumann"
+    ],
+    "journal": "Physical Review B",
+    "year": 2015,
+    "date": "2015-08-24",
+    "doi": "https://doi.org/10.1103/physrevb.92.064203",
+    "pdf": "https://arxiv.org/pdf/1501.03824"
+  },
+  {
+    "id": "https://openalex.org/W2963838994",
+    "title": "Many-body mobility edge due to symmetry-constrained dynamics and strong interactions",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Arijeet Pal",
+      "Chris R. Laumann",
+      "Taylor L. Hughes"
+    ],
+    "journal": "UCL Discovery (University College London)",
+    "year": 2015,
+    "date": "2015-01-15",
+    "doi": "https://doi.org/10.48550/arxiv.1501.03824",
+    "pdf": "https://doi.org/10.48550/arxiv.1501.03824"
+  },
+  {
+    "id": "https://openalex.org/W2323091718",
+    "title": "Signatures of metal-insulator and topological phase transitions in the entanglement of one-dimensional disordered fermions",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Taylor L. Hughes"
+    ],
+    "journal": "Physical Review B",
+    "year": 2014,
+    "date": "2014-09-26",
+    "doi": "https://doi.org/10.1103/physrevb.90.104204",
+    "pdf": "https://arxiv.org/pdf/1403.6129"
+  },
+  {
+    "id": "https://openalex.org/W1972033316",
+    "title": "Topological Criticality in the Chiral-Symmetric AIII Class at Strong Disorder",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Taylor L. Hughes",
+      "Juntao Song",
+      "Emil Prodan"
+    ],
+    "journal": "Physical Review Letters",
+    "year": 2014,
+    "date": "2014-07-23",
+    "doi": "https://doi.org/10.1103/physrevlett.113.046802",
+    "pdf": "https://arxiv.org/pdf/1311.5233"
+  },
+  {
+    "id": "https://openalex.org/W2284569297",
+    "title": "Absence of levitation and annihilation at the topological phase transition of a disordered one-dimensional model in class AIII",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Juntao Song",
+      "Taylor L. Hughes",
+      "Emil Prodan"
+    ],
+    "journal": "Bulletin of the American Physical Society",
+    "year": 2014,
+    "date": "2014-03-03",
+    "doi": null,
+    "pdf": null
+  },
+  {
+    "id": "https://openalex.org/W1988370336",
+    "title": "Characterizing Disordered Fermion Systems Using the Momentum-Space Entanglement Spectrum",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Mayukh Nilay Khan",
+      "Taylor L. Hughes"
+    ],
+    "journal": "Physical Review Letters",
+    "year": 2013,
+    "date": "2013-01-25",
+    "doi": "https://doi.org/10.1103/physrevlett.110.046806",
+    "pdf": "https://arxiv.org/pdf/1206.3313"
+  },
+  {
+    "id": "https://openalex.org/W2995641950",
+    "title": "Characterizing disordered fermion systems using the momentum-space entanglement spectrum",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Mayukh Nilay Khan",
+      "Taylor L. Hughes"
+    ],
+    "journal": "arXiv (Cornell University)",
+    "year": 2012,
+    "date": "2012-06-14",
+    "doi": "https://doi.org/10.48550/arxiv.1206.3313",
+    "pdf": "https://doi.org/10.48550/arxiv.1206.3313"
+  },
+  {
+    "id": "https://openalex.org/W2074041318",
+    "title": "Unconventional Bose\u2014Einstein Condensations from Spin-Orbit Coupling",
+    "authors": [
+      "Congjun Wu",
+      "Ian Mondragon-Shem",
+      "Xiang-Fa Zhou"
+    ],
+    "journal": "Chinese Physics Letters",
+    "year": 2011,
+    "date": "2011-09-01",
+    "doi": "https://doi.org/10.1088/0256-307x/28/9/097102",
+    "pdf": "https://iopscience.iop.org/article/10.1088/0256-307X/28/9/097102/pdf"
+  },
+  {
+    "id": "https://openalex.org/W1662673147",
+    "title": "Quantum phase transition of light as a control of the entanglement between interacting quantum dots",
+    "authors": [
+      "Angela M. Barragan",
+      "Carlos Andres Vera-Ciro",
+      "Ian Mondragon-Shem"
+    ],
+    "journal": "Data Archiving and Networked Services (DANS)",
+    "year": 2011,
+    "date": "2011-03-25",
+    "doi": null,
+    "pdf": null
+  },
+  {
+    "id": "https://openalex.org/W144466649",
+    "title": "Phase transitions of spin-orbit coupled Bose-Einstein Condensate in an external trap potential",
+    "authors": [
+      "Xiang-Fa Zhou",
+      "Ian Mondragon-Shem",
+      "Congjun Wu"
+    ],
+    "journal": "Bulletin of the American Physical Society",
+    "year": 2011,
+    "date": "2011-03-23",
+    "doi": null,
+    "pdf": null
+  },
+  {
+    "id": "https://openalex.org/W1547712983",
+    "title": "Efficient calculation of Coulomb matrix elements for bilayers of confined charge carriers with arbitrary spatial separation",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Boris A. Rodr\u00edguez",
+      "Francisco Eugenio L\u00f3pez Giraldo"
+    ],
+    "journal": "Computer Physics Communications",
+    "year": 2010,
+    "date": "2010-05-12",
+    "doi": "https://doi.org/10.1016/j.cpc.2010.05.001",
+    "pdf": "https://arxiv.org/pdf/0911.5363"
+  },
+  {
+    "id": "https://openalex.org/W122348470",
+    "title": "Unconventional Bose-Einstein condensation with Rashba coupling in optical lattices",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Boris A. Rodr\u00edguez",
+      "Congjun Wu"
+    ],
+    "journal": "Bulletin of the American Physical Society",
+    "year": 2010,
+    "date": "2010-03-19",
+    "doi": null,
+    "pdf": null
+  },
+  {
+    "id": "https://openalex.org/W1757417287",
+    "title": "Ultracold atoms in optical lattices induced by photonic crystals",
+    "authors": [
+      "Angela M. Barragan",
+      "Ian Mondragon-Shem",
+      "Herbert Vinck-Posada"
+    ],
+    "journal": "arXiv (Cornell University)",
+    "year": 2009,
+    "date": "2009-11-27",
+    "doi": "https://doi.org/10.48550/arxiv.0911.5185",
+    "pdf": "https://arxiv.org/pdf/0911.5185"
+  },
+  {
+    "id": "https://openalex.org/W2094497171",
+    "title": "Coulomb correlations of a few body system of spatially separated charges",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Boris A. Rodr\u00edguez",
+      "Francisco Eugenio L\u00f3pez Giraldo"
+    ],
+    "journal": "Journal of Physics Conference Series",
+    "year": 2009,
+    "date": "2009-11-01",
+    "doi": "https://doi.org/10.1088/1742-6596/193/1/012133",
+    "pdf": "https://iopscience.iop.org/article/10.1088/1742-6596/193/1/012133/pdf"
+  },
+  {
+    "id": "https://openalex.org/W88281328",
+    "title": "Spontaneous generation of a half-quantum vortex in spin-orbit coupled Bose-Einstein condensates",
+    "authors": [
+      "Congjun Wu",
+      "Ian Mondragon-Shem"
+    ],
+    "journal": "arXiv (Cornell University)",
+    "year": 2008,
+    "date": "2008-09-20",
+    "doi": null,
+    "pdf": "https://arxiv.org/pdf/0809.3532"
+  }
 ]

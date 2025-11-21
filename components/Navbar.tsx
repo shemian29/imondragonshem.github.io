@@ -9,6 +9,7 @@ const navItems = [
     { name: 'Home', href: '/' },
     { name: 'People', href: '/people' },
     { name: 'Research', href: '/research' },
+    { name: 'Teaching', href: '/teaching' },
     { name: 'Publications', href: '/publications' },
     { name: 'Interactive Lab', href: '/interactive' },
 ];
@@ -23,7 +24,7 @@ export default function Navbar() {
                     <div className="flex items-center">
                         <Link href="/" className="flex items-center space-x-2">
                             <Atom className="h-8 w-8 text-accent" />
-                            <span className="font-bold text-xl tracking-tight">Mondragon-Shem Group</span>
+                            <span className="font-bold text-xl tracking-tight">Mondragon-Shem Quantum Engineering Group</span>
                         </Link>
                     </div>
                     <div className="hidden md:block">

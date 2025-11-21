@@ -13,5 +13,29 @@
             "email": "mailto:ids@uic.edu",
             "cv": "/assets/CV_IanMondragon.pdf"
         }
+    },
+    {
+        "id": "yash-rana",
+        "name": "Yash Rana",
+        "role": "PhD Student",
+        "title": "Graduate Researcher",
+        "affiliation": "Department of Electrical and Computer Engineering, UIC",
+        "bio": "Investigating protected superconducting qubits and circuit quantum electrodynamics.",
+        "image": "/assets/placeholder_student.jpg",
+        "links": {
+            "email": "mailto:yrana@uic.edu"
+        }
+    },
+    {
+        "id": "idden-tsai",
+        "name": "Idden Tsai",
+        "role": "Undergraduate Student",
+        "title": "Undergraduate Researcher",
+        "affiliation": "Department of Electrical and Computer Engineering, UIC",
+        "bio": "Investigating quantum batteries and developing quantum simulation software.",
+        "image": "/assets/placeholder_student.jpg",
+        "links": {
+            "email": "mailto:itsai@uic.edu"
+        }
     }
 ]
