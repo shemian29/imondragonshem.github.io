@@ -11,12 +11,12 @@ export default function Home() {
       <section className="relative bg-primary text-white py-24 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/assets/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
-          <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
-            Quantum Many-Body Physics
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+            Mondragon-Shem
+            <span className="block text-accent mt-2">Quantum Engineering Group</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mb-10">
-            Exploring the interface of condensed matter physics and quantum information science.
-            Designing next-generation quantum hardware and investigating topological phases of matter.
+          <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto mb-10">
+            Exploring the frontiers of quantum information science, superconducting circuits, and topological phases of matter.
           </p>
           <div className="flex gap-4">
             <Link
