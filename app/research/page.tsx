@@ -5,22 +5,22 @@ import { ArrowRight } from 'lucide-react';
 const researchAreas = [
     {
         id: 'superconducting-circuits',
-        title: 'Superconducting Circuits',
-        description: 'Theory and design of superconducting qubits, including Floquet-engineered qubits, cross-talk analysis, and Josephson junction arrays.',
+        title: 'Superconducting Quantum Processors',
+        description: 'Design of superconducting qubits and processors, Floquet engineering, correlated errors, error mitigation and quantum simulation.',
         image: '/assets/superconducting.png',
         link: '/research/superconducting-circuits'
     },
     {
         id: 'non-equilibrium',
-        title: 'Non-Equilibrium & Ergodicity',
-        description: 'Investigating ergodicity breaking, quantum many-body scars, and quantum batteries in driven systems.',
+        title: 'Non-Equilibrium Quantum Systems',
+        description: 'Novel phases in driven quantum systems, non-ergodic systems, quantum many-body scars, and quantum batteries.',
         image: '/assets/nonequilibrium.png',
         link: '/research/non-equilibrium'
     },
     {
         id: 'topological-phases',
-        title: 'Topological Phases',
-        description: 'Studying topological markers, disorder in topological phases, and inhomogeneous topological systems.',
+        title: 'Novel Quantum Matter',
+        description: 'Topological insulators, topological superconductors, Majorana modes, disorder-induced criticality, and quantum phase transitions.',
         image: '/assets/topology.png',
         link: '/research/topological-phases'
     }
@@ -28,12 +28,18 @@ const researchAreas = [
 
 export default function Research() {
     return (
-        <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-20">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h1 className="text-4xl font-bold text-primary dark:text-white mb-8">Research Areas</h1>
-                <p className="text-xl text-gray-600 dark:text-gray-300 mb-16 max-w-3xl">
-                    Our group investigates the fundamental properties of quantum matter and leverages them for quantum information processing.
-                </p>
+        <div className="min-h-screen">
+            <section className="bg-primary text-white py-16">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h1 className="text-4xl font-bold mb-4">Research Areas</h1>
+                    <p className="text-xl text-gray-300 max-w-3xl">
+                        Our group investigates the fundamental properties of quantum matter and leverages them for quantum information processing.
+                    </p>
+                </div>
+            </section>
+
+            <div className="bg-gray-50 dark:bg-gray-950 py-16">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 <div className="grid md:grid-cols-3 gap-8">
                     {researchAreas.map((area) => (
@@ -63,6 +69,7 @@ export default function Research() {
                     ))}
                 </div>
             </div>
+        </div>
         </div>
     );
 }

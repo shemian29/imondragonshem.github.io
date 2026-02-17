@@ -1,0 +1,402 @@
+[
+  {
+    "text": "vortex",
+    "value": 34
+  },
+  {
+    "text": "topological",
+    "value": 30
+  },
+  {
+    "text": "quantum",
+    "value": 26
+  },
+  {
+    "text": "superconducting",
+    "value": 23
+  },
+  {
+    "text": "disorder",
+    "value": 21
+  },
+  {
+    "text": "energy",
+    "value": 17
+  },
+  {
+    "text": "magnetic",
+    "value": 17
+  },
+  {
+    "text": "circuits",
+    "value": 16
+  },
+  {
+    "text": "dynamics",
+    "value": 16
+  },
+  {
+    "text": "entanglement",
+    "value": 16
+  },
+  {
+    "text": "symmetry",
+    "value": 15
+  },
+  {
+    "text": "arrays",
+    "value": 15
+  },
+  {
+    "text": "circuit",
+    "value": 14
+  },
+  {
+    "text": "spin",
+    "value": 14
+  },
+  {
+    "text": "josephson",
+    "value": 12
+  },
+  {
+    "text": "driven",
+    "value": 12
+  },
+  {
+    "text": "tcps",
+    "value": 12
+  },
+  {
+    "text": "localized",
+    "value": 12
+  },
+  {
+    "text": "local",
+    "value": 12
+  },
+  {
+    "text": "edge",
+    "value": 12
+  },
+  {
+    "text": "superconductor",
+    "value": 12
+  },
+  {
+    "text": "states",
+    "value": 11
+  },
+  {
+    "text": "invariants",
+    "value": 11
+  },
+  {
+    "text": "presence",
+    "value": 11
+  },
+  {
+    "text": "microwave",
+    "value": 10
+  },
+  {
+    "text": "spectrum",
+    "value": 10
+  },
+  {
+    "text": "field",
+    "value": 10
+  },
+  {
+    "text": "real",
+    "value": 9
+  },
+  {
+    "text": "disordered",
+    "value": 9
+  },
+  {
+    "text": "finite",
+    "value": 8
+  },
+  {
+    "text": "superconductors",
+    "value": 8
+  },
+  {
+    "text": "vortices",
+    "value": 8
+  },
+  {
+    "text": "interactions",
+    "value": 8
+  },
+  {
+    "text": "lattice",
+    "value": 8
+  },
+  {
+    "text": "mobility",
+    "value": 8
+  },
+  {
+    "text": "drive",
+    "value": 7
+  },
+  {
+    "text": "control",
+    "value": 7
+  },
+  {
+    "text": "robust",
+    "value": 7
+  },
+  {
+    "text": "coupling",
+    "value": 7
+  },
+  {
+    "text": "body",
+    "value": 7
+  },
+  {
+    "text": "momentum",
+    "value": 7
+  },
+  {
+    "text": "drives",
+    "value": 6
+  },
+  {
+    "text": "hamiltonian",
+    "value": 6
+  },
+  {
+    "text": "dissipation",
+    "value": 6
+  },
+  {
+    "text": "element",
+    "value": 6
+  },
+  {
+    "text": "induced",
+    "value": 6
+  },
+  {
+    "text": "applications",
+    "value": 6
+  },
+  {
+    "text": "markers",
+    "value": 6
+  },
+  {
+    "text": "polarization",
+    "value": 6
+  },
+  {
+    "text": "network",
+    "value": 6
+  },
+  {
+    "text": "response",
+    "value": 6
+  },
+  {
+    "text": "scanning",
+    "value": 6
+  },
+  {
+    "text": "junction",
+    "value": 6
+  },
+  {
+    "text": "fields",
+    "value": 6
+  },
+  {
+    "text": "strengths",
+    "value": 6
+  },
+  {
+    "text": "matter",
+    "value": 6
+  },
+  {
+    "text": "transition",
+    "value": 6
+  },
+  {
+    "text": "localization",
+    "value": 6
+  },
+  {
+    "text": "delocalized",
+    "value": 6
+  },
+  {
+    "text": "spontaneously",
+    "value": 6
+  },
+  {
+    "text": "orbit",
+    "value": 6
+  },
+  {
+    "text": "type",
+    "value": 6
+  },
+  {
+    "text": "condensate",
+    "value": 6
+  },
+  {
+    "text": "static",
+    "value": 5
+  },
+  {
+    "text": "rely",
+    "value": 5
+  },
+  {
+    "text": "floquet",
+    "value": 5
+  },
+  {
+    "text": "crystalline",
+    "value": 5
+  },
+  {
+    "text": "boundary",
+    "value": 5
+  },
+  {
+    "text": "modes",
+    "value": 5
+  },
+  {
+    "text": "level",
+    "value": 5
+  },
+  {
+    "text": "normal",
+    "value": 5
+  },
+  {
+    "text": "metal",
+    "value": 5
+  },
+  {
+    "text": "spatially",
+    "value": 5
+  },
+  {
+    "text": "motion",
+    "value": 5
+  },
+  {
+    "text": "probe",
+    "value": 5
+  },
+  {
+    "text": "terms",
+    "value": 5
+  },
+  {
+    "text": "broken",
+    "value": 5
+  },
+  {
+    "text": "electromagnetic",
+    "value": 4
+  },
+  {
+    "text": "including",
+    "value": 4
+  },
+  {
+    "text": "devices",
+    "value": 4
+  },
+  {
+    "text": "accurate",
+    "value": 4
+  },
+  {
+    "text": "fidelity",
+    "value": 4
+  },
+  {
+    "text": "operations",
+    "value": 4
+  },
+  {
+    "text": "existing",
+    "value": 4
+  },
+  {
+    "text": "modeling",
+    "value": 4
+  },
+  {
+    "text": "hamiltonians",
+    "value": 4
+  },
+  {
+    "text": "fully",
+    "value": 4
+  },
+  {
+    "text": "capture",
+    "value": 4
+  },
+  {
+    "text": "they",
+    "value": 4
+  },
+  {
+    "text": "novel",
+    "value": 4
+  },
+  {
+    "text": "geometries",
+    "value": 4
+  },
+  {
+    "text": "lumped",
+    "value": 4
+  },
+  {
+    "text": "characterizing",
+    "value": 4
+  },
+  {
+    "text": "systematic",
+    "value": 4
+  },
+  {
+    "text": "state",
+    "value": 4
+  },
+  {
+    "text": "understanding",
+    "value": 4
+  },
+  {
+    "text": "protected",
+    "value": 4
+  },
+  {
+    "text": "symmetries",
+    "value": 4
+  },
+  {
+    "text": "broad",
+    "value": 4
+  },
+  {
+    "text": "invariant",
+    "value": 4
+  }
+]

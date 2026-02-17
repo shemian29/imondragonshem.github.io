@@ -8,10 +8,10 @@ import { motion } from 'framer-motion';
 const navItems = [
     { name: 'Home', href: '/' },
     { name: 'People', href: '/people' },
+    { name: 'Join Us', href: '/join-us' },
     { name: 'Research', href: '/research' },
     { name: 'Teaching', href: '/teaching' },
     { name: 'Publications', href: '/publications' },
-    { name: 'Interactive Lab', href: '/interactive' },
 ];
 
 export default function Navbar() {

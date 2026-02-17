@@ -23,7 +23,7 @@ export default function Teaching() {
                                 </span>
                             </div>
                             <p className="text-gray-600 dark:text-gray-300 mb-4">
-                                Fundamental principles of circuit analysis. Topics include Kirchhoff's laws, resistive networks, nodal and mesh analysis, network theorems, energy storage elements, and transient analysis of first- and second-order circuits.
+                                Fundamental principles of circuit analysis. Topics include Kirchhoff&apos;s laws, resistive networks, nodal and mesh analysis, network theorems, energy storage elements, and transient analysis of first- and second-order circuits.
                             </p>
                         </div>
                     </div>
