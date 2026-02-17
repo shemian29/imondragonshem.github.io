@@ -2,6 +2,8 @@ import Image from 'next/image';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const publications = [
     {
         title: "Robust topological invariants of topological crystalline phases in the presence of impurities",
@@ -52,7 +54,7 @@ export default function TopologicalPhases() {
 
                 <div className="relative w-full h-64 md:h-96 rounded-2xl overflow-hidden mb-12 shadow-lg">
                     <Image
-                        src="/assets/topology.png"
+                        src={`${basePath}/assets/topology.png`}
                         alt="Novel Quantum Matter"
                         fill
                         className="object-cover"

@@ -2,6 +2,8 @@ import Image from 'next/image';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const publications = [
     {
         title: "Quantized frequency-domain polarization of driven phases of matter",
@@ -45,7 +47,7 @@ export default function NonEquilibrium() {
 
                 <div className="relative w-full h-64 md:h-96 rounded-2xl overflow-hidden mb-12 shadow-lg">
                     <Image
-                        src="/assets/nonequilibrium.png"
+                        src={`${basePath}/assets/nonequilibrium.png`}
                         alt="Non-Equilibrium Quantum Systems"
                         fill
                         className="object-cover"

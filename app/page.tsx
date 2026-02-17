@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { ArrowRight, Cpu, Waves, Box } from 'lucide-react';
 import newsData from '@/data/news.json';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function Home() {
   const recentNews = newsData.slice(0, 3);
 
@@ -47,7 +49,7 @@ export default function Home() {
             <Link href="/research/superconducting-circuits" className="group">
               <div className="flex flex-col h-full rounded-2xl overflow-hidden bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:shadow-xl transition-all duration-300">
                 <div className="relative w-full h-52 bg-gray-200 dark:bg-gray-700">
-                  <Image src="/assets/superconducting.png" alt="Superconducting Circuits" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <Image src={`${basePath}/assets/superconducting.png`} alt="Superconducting Circuits" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
                 <div className="p-6 flex flex-col flex-grow">
                   <div className="flex items-center gap-3 mb-3">
@@ -65,7 +67,7 @@ export default function Home() {
             <Link href="/research/non-equilibrium" className="group">
               <div className="flex flex-col h-full rounded-2xl overflow-hidden bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:shadow-xl transition-all duration-300">
                 <div className="relative w-full h-52 bg-gray-200 dark:bg-gray-700">
-                  <Image src="/assets/nonequilibrium.png" alt="Non-Equilibrium Systems" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <Image src={`${basePath}/assets/nonequilibrium.png`} alt="Non-Equilibrium Systems" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
                 <div className="p-6 flex flex-col flex-grow">
                   <div className="flex items-center gap-3 mb-3">
@@ -83,7 +85,7 @@ export default function Home() {
             <Link href="/research/topological-phases" className="group">
               <div className="flex flex-col h-full rounded-2xl overflow-hidden bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 hover:shadow-xl transition-all duration-300">
                 <div className="relative w-full h-52 bg-gray-200 dark:bg-gray-700">
-                  <Image src="/assets/topology.png" alt="Topological Phases" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <Image src={`${basePath}/assets/topology.png`} alt="Topological Phases" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                 </div>
                 <div className="p-6 flex flex-col flex-grow">
                   <div className="flex items-center gap-3 mb-3">

@@ -2,6 +2,8 @@ import Image from 'next/image';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const publications = [
     {
         title: "Systematic Construction of Time-Dependent Hamiltonians for Microwave-Driven Josephson Circuits",
@@ -45,7 +47,7 @@ export default function SuperconductingCircuits() {
 
                 <div className="relative w-full h-64 md:h-96 rounded-2xl overflow-hidden mb-12 shadow-lg">
                     <Image
-                        src="/assets/superconducting.png"
+                        src={`${basePath}/assets/superconducting.png`}
                         alt="Superconducting Quantum Processors"
                         fill
                         className="object-cover"

@@ -3,6 +3,8 @@ import Image from 'next/image';
 import { Mail, Linkedin, FileText, GraduationCap } from 'lucide-react';
 import teamData from '@/data/team.json';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export default function People() {
     return (
         <div className="min-h-screen">
@@ -23,7 +25,7 @@ export default function People() {
                         <div key={member.id} className="bg-white dark:bg-gray-900 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800 overflow-hidden flex flex-col md:flex-row">
                             <div className="md:w-1/3 relative h-80 md:h-auto min-h-[320px] bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-700">
                                 {member.image && !member.image.includes('placeholder') ? (
-                                    <Image src={member.image} alt={member.name} fill className="object-cover object-[center_20%]" />
+                                    <Image src={`${basePath}${member.image}`} alt={member.name} fill className="object-cover object-[center_20%]" />
                                 ) : (
                                     <div className="absolute inset-0 flex items-center justify-center">
                                         <span className="text-5xl font-bold text-blue-300 dark:text-gray-500 select-none">
