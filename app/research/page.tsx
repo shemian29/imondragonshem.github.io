@@ -2,6 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const researchAreas = [
     {
         id: 'superconducting-circuits',
@@ -47,7 +49,7 @@ export default function Research() {
                             <div className="bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-800 h-full flex flex-col">
                                 <div className="relative h-48 w-full bg-gray-200 dark:bg-gray-800">
                                     <Image
-                                        src={area.image}
+                                        src={`${basePath}${area.image}`}
                                         alt={area.title}
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform duration-500"
