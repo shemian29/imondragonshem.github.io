@@ -49,9 +49,11 @@ jobs:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+        run: npm ci --legacy-peer-deps
       - name: Fetch Publications
-        run: python scripts/fetch_pubs.py
+        run: |
+          pip install requests
+          python scripts/fetch_pubs.py
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
