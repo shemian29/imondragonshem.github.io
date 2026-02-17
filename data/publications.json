@@ -1,665 +1,341 @@
 [
   {
-    "id": "https://openalex.org/W7117291327",
-    "title": "Systematic Construction of Time-Dependent Hamiltonians for Microwave-Driven Josephson Circuits",
+    "id": "in-prep-1",
+    "title": "Role of the Top of the Cosine Well in Transmon Ionization",
     "authors": [
-      "Yao Lu",
-      "Tianpu Zhao",
-      "Andr\u00e9 Valli\u00e8res",
-      "Kevin C. Smith",
-      "Daniel Weiss",
-      "Xinyuan You",
-      "Yaxing Zhang",
-      "Suhas Ganjam",
-      "Aniket Maiti",
-      "John W. O. Garmon",
-      "Shantanu Mundhada",
-      "Ziwen Huang",
+      "Matthew Capocci",
       "Ian Mondragon-Shem",
-      "Steven M. Girvin",
-      "Jens Koch",
-      "Robert J. Schoelkopf"
+      "Jens Koch"
     ],
-    "journal": "arXiv (Cornell University)",
+    "journal": "In Preparation",
     "year": 2025,
-    "date": "2025-12-23",
-    "doi": "https://doi.org/10.48550/arxiv.2512.20743",
-    "pdf": "https://doi.org/10.48550/arxiv.2512.20743",
-    "summary": "Time-dependent electromagnetic drives are fundamental for controlling complex quantum systems, including superconducting Josephson circuits. In these devices, accurate time-dependent Hamiltonian models are imperative for predicting their dynamics and designing high-fidelity quantum operations. Existing numerical methods, such as black-box quantization (BBQ) and energy-participation ratio (EPR), excel at modeling the static Hamiltonians of Josephson circuits. However, these techniques do not fully capture the behavior of driven circuits stimulated by external microwave drives, nor do they include a generalized approach to account for the inevitable noise and dissipation that enter through microwave ports. Here, we introduce novel numerical techniques that leverage classical microwave simulations that can be efficiently executed in finite element solvers, to obtain the time-dependent Hamiltonian of a microwave-driven superconducting circuit with arbitrary geometries. Importantly, our techniques do not rely on a lumped-element description of the superconducting circuit, in contrast to previous approaches to tackling this problem. We demonstrate the versatility of our approach by characterizing the driven properties of realistic circuit devices in complex electromagnetic environments, including coherent dynamics due to charge and flux modulation, as well as drive-induced relaxation and dephasing. Our techniques offer a powerful toolbox for optimizing circuit designs and advancing practical applications in superconducting quantum computing.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W7117150947",
-    "title": "Dataset for \"Systematic Construction of Time-Dependent Hamiltonians for Microwave-Driven Josephson Circuits\"",
-    "authors": [
-      "Y. Lu",
-      "Tianpu Zhao",
-      "Andre Vallieres",
-      "Kevin C. Smith",
-      "Daniel Weiss",
-      "Xinyuan You",
-      "Yaxing Zhang",
-      "Suhas Ganjam",
-      "Aniket Maiti",
-      "John W. O. Garmon",
-      "Shantanu Mundhada",
-      "Ziwen Huang",
-      "Ian Mondragon-Shem",
-      "S. M. Girvin",
-      "Jens Koch",
-      "Robert Schoelkopf"
-    ],
-    "journal": "Zenodo (CERN European Organization for Nuclear Research)",
-    "year": 2025,
-    "date": "2025-12-23",
-    "doi": "https://doi.org/10.5281/zenodo.18028722",
-    "pdf": "https://doi.org/10.5281/zenodo.18028722",
-    "summary": "Dataset for figures in the manuscript titled \"Systematic Construction of Time-Dependent Hamiltonians for Microwave-Driven Josephson Circuits\"",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W7117146210",
-    "title": "Dataset for \"Systematic Construction of Time-Dependent Hamiltonians for Microwave-Driven Josephson Circuits\"",
-    "authors": [
-      "Y. Lu",
-      "Tianpu Zhao",
-      "Andre Vallieres",
-      "Kevin C. Smith",
-      "Daniel Weiss",
-      "Xinyuan You",
-      "Yaxing Zhang",
-      "Suhas Ganjam",
-      "Aniket Maiti",
-      "John W. O. Garmon",
-      "Shantanu Mundhada",
-      "Ziwen Huang",
-      "Ian Mondragon-Shem",
-      "S. M. Girvin",
-      "Jens Koch",
-      "Robert Schoelkopf"
-    ],
-    "journal": "Zenodo (CERN European Organization for Nuclear Research)",
-    "year": 2025,
-    "date": "2025-12-23",
-    "doi": "https://doi.org/10.5281/zenodo.18028723",
-    "pdf": "https://doi.org/10.5281/zenodo.18028723",
-    "summary": "Dataset for figures in the manuscript titled \"Systematic Construction of Time-Dependent Hamiltonians for Microwave-Driven Josephson Circuits\"",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W7117339364",
-    "title": "Systematic Construction of Time-Dependent Hamiltonians for Microwave-Driven Josephson Circuits",
-    "authors": [
-      "Yao Lu",
-      "Tianpu Zhao",
-      "Andr\u00e9 Valli\u00e8res",
-      "Kevin C. Smith",
-      "Daniel Weiss",
-      "Xinyuan You",
-      "Yaxing Zhang",
-      "Suhas Ganjam",
-      "Aniket Maiti",
-      "John W. O. Garmon",
-      "Shantanu Mundhada",
-      "Ziwen Huang",
-      "Ian Mondragon-Shem",
-      "Steven M. Girvin",
-      "Jens Koch",
-      "Robert J. Schoelkopf"
-    ],
-    "journal": "ArXiv.org",
-    "year": 2025,
-    "date": "2025-12-23",
+    "category": "In Preparation",
     "doi": null,
-    "pdf": "https://arxiv.org/pdf/2512.20743",
-    "summary": "Time-dependent electromagnetic drives are fundamental for controlling complex quantum systems, including superconducting Josephson circuits. In these devices, accurate time-dependent Hamiltonian models are imperative for predicting their dynamics and designing high-fidelity quantum operations. Existing numerical methods, such as black-box quantization (BBQ) and energy-participation ratio (EPR), excel at modeling the static Hamiltonians of Josephson circuits. However, these techniques do not fully capture the behavior of driven circuits stimulated by external microwave drives, nor do they include a generalized approach to account for the inevitable noise and dissipation that enter through microwave ports. Here, we introduce novel numerical techniques that leverage classical microwave simulations that can be efficiently executed in finite element solvers, to obtain the time-dependent Hamiltonian of a microwave-driven superconducting circuit with arbitrary geometries. Importantly, our techniques do not rely on a lumped-element description of the superconducting circuit, in contrast to previous approaches to tackling this problem. We demonstrate the versatility of our approach by characterizing the driven properties of realistic circuit devices in complex electromagnetic environments, including coherent dynamics due to charge and flux modulation, as well as drive-induced relaxation and dephasing. Our techniques offer a powerful toolbox for optimizing circuit designs and advancing practical applications in superconducting quantum computing.",
-    "image": null
+    "pdf": null,
+    "summary": null
   },
   {
-    "id": "https://openalex.org/W4416072518",
+    "id": "in-prep-2",
+    "title": "Systematic Construction of Time-Dependent Hamiltonians for Microwave-Driven Josephson Circuits",
+    "authors": [
+      "Yao Lu",
+      "Tianpu Zhao",
+      "André Vallières",
+      "Kevin C. Smith",
+      "Daniel Weiss",
+      "Xinyuan You",
+      "Yaxing Zhang",
+      "Suhas Ganjam",
+      "Aniket Maiti",
+      "John W. O. Garmon",
+      "Shantanu Mundhada",
+      "Ziwen Huang",
+      "Ian Mondragon-Shem",
+      "S. M. Girvin",
+      "Jens Koch",
+      "Robert J. Schoelkopf"
+    ],
+    "journal": "In Preparation",
+    "year": 2025,
+    "category": "In Preparation",
+    "doi": "https://doi.org/10.48550/arxiv.2512.20743",
+    "pdf": "https://arxiv.org/pdf/2512.20743",
+    "summary": "Time-dependent electromagnetic drives are fundamental for controlling complex quantum systems, including superconducting Josephson circuits. We introduce novel numerical techniques that leverage classical microwave simulations to obtain the time-dependent Hamiltonian of a microwave-driven superconducting circuit with arbitrary geometries, without relying on a lumped-element description."
+  },
+  {
+    "id": "in-prep-3",
+    "title": "Floquet Qubits with Flat Spectra",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Ziwen Huang",
+      "Jens Koch"
+    ],
+    "journal": "In Preparation",
+    "year": 2025,
+    "category": "In Preparation",
+    "doi": null,
+    "pdf": null,
+    "summary": null
+  },
+  {
+    "id": "in-prep-4",
+    "title": "Multiple Scar Towers in Strongly Interacting Rydberg Atoms",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Maxim G. Vavilov",
+      "Ivar Martin"
+    ],
+    "journal": "In Preparation",
+    "year": 2025,
+    "category": "In Preparation",
+    "doi": null,
+    "pdf": null,
+    "summary": null
+  },
+  {
+    "id": "preprint-1",
     "title": "Exceeding the Parametric Drive Strength Threshold in Nonlinear Circuits",
     "authors": [
       "Mingkang Xia",
-      "Crist\u00f3bal Lled\u00f3",
+      "Cristóbal Lledó",
       "Matthew Capocci",
       "Jacob Repicky",
-      "Benjamin D\u2019Anjou",
+      "Benjamin D’Anjou",
       "Ian Mondragon-Shem",
       "Ryan Kaufman",
       "Jens Koch",
       "Alexandre Blais",
       "Michael Hatridge"
     ],
-    "journal": "arXiv (Cornell University)",
+    "journal": "arXiv:2506.03456",
     "year": 2025,
-    "date": "2025-06-03",
+    "category": "Preprints",
     "doi": "https://doi.org/10.48550/arxiv.2506.03456",
     "pdf": "https://arxiv.org/pdf/2506.03456",
-    "summary": "Superconducting quantum circuits rely on strong drives to implement fast gates, high-fidelity readout, and state stabilization. However, these drives can induce uncontrolled excitations, so-called \"ionization\", that compromise the fidelity of these operations. While now well-characterized in the context of qubit readout, it remains unclear how general this limitation is across the more general setting of parametric control. Here, we demonstrate that a nonlinear coupler, exemplified by a transmon, undergoes ionization under strong parametric driving, leading to a breakdown of coherent control and thereby limiting the accessible gate speeds. Through experiments and numerical simulations, we associate this behavior with the emergence of drive-induced chaotic dynamics, which we characterize quantitatively using the instantaneous Floquet spectrum. Our results reveal that the Floquet spectrum provides a unifying framework for understanding strong-drive limitations across a wide range of operations on superconducting quantum circuits. This insight establishes fundamental constraints on parametric control and offers design principles for mitigating drive-induced decoherence in next-generation quantum processors.",
-    "image": null
+    "summary": "We demonstrate that a nonlinear coupler undergoes ionization under strong parametric driving, leading to a breakdown of coherent control. Through experiments and numerical simulations, we associate this behavior with drive-induced chaotic dynamics, characterized using the instantaneous Floquet spectrum."
   },
   {
-    "id": "https://openalex.org/W2954113871",
-    "title": "Robust topological invariants of topological crystalline phases in the presence of impurities",
-    "authors": [
-      "Ian Mondragon-Shem",
-      "Taylor L. Hughes"
-    ],
-    "journal": "Physical review. B./Physical review. B",
-    "year": 2024,
-    "date": "2024-07-18",
-    "doi": "https://doi.org/10.1103/physrevb.110.035146",
-    "pdf": null,
-    "summary": "Topological crystalline phases (TCPs) are topological states protected by spatial symmetries. A broad range of TCPs have been conventionally studied by formulating topological invariants (symmetry indicators) at invariant momenta in the Brillouin zone, which leaves open the question of their stability in the absence of translational invariance. In this work, we show that robust basis-independent topological invariants can be generically constructed for TCPs using projected symmetry operators. Remarkably, we show that the real-space topological markers of these invariants are exponentially localized to the fixed points of the spatial symmetry. As a result, this real-space structure protects them against the presence of impurities that are located away from the fixed points and also sufficiently slowly varying disorder potentials. By considering all possible symmetry centers in a crystalline system we can generate a mesh of real-space topological markers that can provide a local topological distinction for TCPs. We illustrate the robustness of this mesh of invariants with one- and two-dimensional TCPs protected by inversion, rotational, and mirror symmetries. Finally, we find that the boundary modes of these TCPs can also exhibit robust topological invariants with localized markers on the edges. We illustrate this with the gapless Majorana boundary modes of mirror-symmetric topological superconductors, and relate their integer topological edge invariant with a quantized effective edge polarization.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W4297100842",
-    "title": "Computer-aided quantization and numerical analysis of superconducting circuits",
-    "authors": [
-      "Sai Pavan Chitta",
-      "Tianpu Zhao",
-      "Ziwen Huang",
-      "Ian Mondragon-Shem",
-      "Jens Koch"
-    ],
-    "journal": "New Journal of Physics",
-    "year": 2022,
-    "date": "2022-09-26",
-    "doi": "https://doi.org/10.1088/1367-2630/ac94f2",
-    "pdf": "https://iopscience.iop.org/article/10.1088/1367-2630/ac94f2/pdf",
-    "summary": "Abstract The development of new superconducting circuits and the improvement of existing ones rely on the accurate modeling of spectral properties which are key to achieving the needed advances in qubit performance. Systematic circuit analysis at the lumped-element level, starting from a circuit network and culminating in a Hamiltonian appropriately describing the quantum properties of the circuit, is a well-established procedure, yet cumbersome to carry out manually for larger circuits. We present work utilizing symbolic computer algebra and numerical diagonalization routines versatile enough to tackle a variety of circuits. Results from this work are accessible through a newly released module of the scqubits package.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W4293574814",
-    "title": "Local imaging of diamagnetism in proximity-coupled niobium nanoisland arrays on gold thin films",
-    "authors": [
-      "Logan Bishop-Van Horn",
-      "Irene P. Zhang",
-      "Emily N. Waite",
-      "Ian Mondragon-Shem",
-      "Scott Jensen",
-      "Junseok Oh",
-      "Tom Lippman",
-      "Malcolm Durkin",
-      "Taylor L. Hughes",
-      "Nadya Mason",
-      "Kathryn A. Moler",
-      "Ilya Sochnikov"
-    ],
-    "journal": "Physical review. B./Physical review. B",
-    "year": 2022,
-    "date": "2022-08-30",
-    "doi": "https://doi.org/10.1103/physrevb.106.054521",
-    "pdf": "https://www.osti.gov/biblio/1884554",
-    "summary": "In this work, we study the effect of engineered disorder on the local magnetic response of proximity-coupled superconducting island arrays by comparing scanning superconducting quantum interference device (SQUID) susceptibility measurements to a model in which we treat the system as a network of one-dimensional (1D) superconductor\u2013normal-metal\u2013superconductor Josephson junctions, each with a Josephson coupling energy $E_J$ determined by the junction length or distance between islands. We find that the disordered arrays exhibit a spatially inhomogeneous diamagnetic response which, for low local applied magnetic fields, is well described by this junction network model, and we discuss these results as they relate to inhomogeneous 2D superconductors. Our model of the static magnetic response of the arrays does not fully capture the onset of nonlinearity and dissipation with increasing applied field, as these effects are associated with vortex motion due to the dynamic nature of the scanning SQUID susceptometry measurement. Furthermore, this work demonstrates a model 2D superconducting system with engineered disorder, and it highlights the impact of dissipation on the local magnetic properties of 2D superconductors and Josephson junction arrays.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W4292719459",
-    "title": "Local imaging of diamagnetism in proximity coupled niobium nano-island arrays on gold thin films",
-    "authors": [
-      "Logan Bishop-Van Horn",
-      "Irene P. Zhang",
-      "Emily N. Waite",
-      "Ian Mondragon-Shem",
-      "Scott Jensen",
-      "Junseok Oh",
-      "Tom Lippman",
-      "Malcolm Durkin",
-      "Taylor L. Hughes",
-      "Nadya Mason",
-      "Kathryn A. Moler",
-      "Ilya Sochnikov"
-    ],
-    "journal": "arXiv (Cornell University)",
-    "year": 2022,
-    "date": "2022-08-18",
-    "doi": "https://doi.org/10.48550/arxiv.2208.09084",
-    "pdf": "https://arxiv.org/pdf/2208.09084",
-    "summary": "In this work we study the effect of engineered disorder on the local magnetic response of proximity coupled superconducting island arrays by comparing scanning Superconducting Quantum Interference Device (SQUID) susceptibility measurements to a model in which we treat the system as a network of one-dimensional (1D) superconductor-normal metal-superconductor (SNS) Josephson junctions, each with a Josephson coupling energy $E_J$ determined by the junction length or distance between islands. We find that the disordered arrays exhibit a spatially inhomogeneous diamagnetic response which, for low local applied magnetic fields, is well described by this junction network model, and we discuss these results as they relate to inhomogeneous two-dimensional (2D) superconductors. Our model of the static magnetic response of the arrays does not fully capture the onset of nonlinearity and dissipation with increasing applied field, as these effects are associated with vortex motion due to the dynamic nature of the scanning SQUID susceptometry measurement. This work demonstrates a model 2D superconducting system with engineered disorder and highlights the impact of dissipation on the local magnetic properties of 2D superconductors and Josephson junction arrays.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W4283068203",
-    "title": "Computer-aided quantization and numerical analysis of superconducting circuits",
-    "authors": [
-      "Sai Pavan Chitta",
-      "Tianpu Zhao",
-      "Ziwen Huang",
-      "Ian Mondragon-Shem",
-      "Jens Koch"
-    ],
-    "journal": "arXiv (Cornell University)",
-    "year": 2022,
-    "date": "2022-06-16",
-    "doi": "https://doi.org/10.48550/arxiv.2206.08320",
-    "pdf": "https://arxiv.org/pdf/2206.08320",
-    "summary": "The development of new superconducting circuits and the improvement of existing ones rely on the accurate modeling of spectral properties which are key to achieving the needed advances in qubit performance. Systematic circuit analysis at the lumped-element level, starting from a circuit network and culminating in a Hamiltonian appropriately describing the quantum properties of the circuit, is a well-established procedure, yet cumbersome to carry out manually for larger circuits. We present work utilizing symbolic computer algebra and numerical diagonalization routines versatile enough to tackle a variety of circuits. Results from this work are accessible through a newly released module of the scqubits package.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W3173518893",
-    "title": "Imaging and controlling vortex dynamics in mesoscopic superconductor\u2013normal-metal\u2013superconductor arrays",
-    "authors": [
-      "Tyler R. Naibert",
-      "Hryhoriy Polshyn",
-      "Rita Garrido-Menacho",
-      "Malcolm Durkin",
-      "Brian Wolin",
-      "Victor Chua",
-      "Ian Mondragon-Shem",
-      "Taylor L. Hughes",
-      "Nadya Mason",
-      "Raffi Budakian"
-    ],
-    "journal": "Physical review. B./Physical review. B",
-    "year": 2021,
-    "date": "2021-06-24",
-    "doi": "https://doi.org/10.1103/physrevb.103.224526",
-    "pdf": "https://arxiv.org/pdf/1705.08956",
-    "summary": "Harnessing the properties of vortices in superconductors is crucial for fundamental science and technological applications; thus, it has been an ongoing goal to locally probe and control vortices. Here, we use a scanning probe technique that enables studies of vortex dynamics in superconducting systems by leveraging the resonant behavior of a raster-scanned, magnetic-tipped cantilever. This experimental setup allows us to image and control vortices, as well as extract key energy scales of the vortex interactions. Applying this technique to lattices of superconductor island arrays on a metal, we obtain a variety of striking spatial patterns that encode information about the energy landscape for vortices in the system. We interpret these patterns in terms of local vortex dynamics and extract the relative strengths of the characteristic energy scales in the system, such as the vortex-magnetic field and vortex-vortex interaction strengths, as well as the vortex chemical potential. We also demonstrate that the relative strengths of the interactions can be tuned and show how these interactions shift with an applied bias. The high degree of tunability and local nature of such vortex imaging and control not only enable new understanding of vortex interactions, but also have potential applications in more complex systems such as those relevant to quantum computing.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W4288301531",
-    "title": "Robust topological invariants of topological crystalline phases in the presence of impurities",
-    "authors": [
-      "Ian Mondragon-Shem",
-      "Taylor L. Hughes"
-    ],
-    "journal": "arXiv (Cornell University)",
-    "year": 2019,
-    "date": "2019-06-27",
-    "doi": "https://doi.org/10.48550/arxiv.1906.11847",
-    "pdf": "https://arxiv.org/pdf/1906.11847",
-    "summary": "Topological crystalline phases (TCPs) are topological states protected by spatial symmetries. A broad range of TCPs have been conventionally studied by formulating topological invariants (symmetry indicators) at invariant momenta in the Brillouin zone, which leaves open the question of their stability in the absence of translational invariance. In this work, we show that robust basis-independent topological invariants can be generically constructed for TCPs using projected symmetry operators. Remarkably we show that the real-space topological markers of these invariants are exponentially localized to the fixed points of the spatial symmetry. As a result, this real-space structure protects them against the presence of impurities that are located away from the fixed points. By considering all possible symmetry centers in a crystalline system we can generate a mesh of real-space topological markers that can provide a local topological distinction for TCPs. We illustrate the robustness of this mesh of invariants with 1D and 2D TCPs protected by inversion, rotational and mirror symmetries. Finally, we find that the boundary modes of these TCPs can also exhibit robust topological invariants with localized markers on the edges. We illustrate this with the gapless Majorana boundary modes of mirror-symmetric topological superconductors, and relate their integer topological edge invariant with a quantized effective edge polarization.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W2902952603",
-    "title": "Quantized frequency-domain polarization of driven phases of matter",
+    "id": "preprint-2",
+    "title": "Quantized Frequency-Domain Polarization of Driven Phases of Matter",
     "authors": [
       "Ian Mondragon-Shem",
       "Ivar Martin",
       "A. Alexandradinata",
       "Meng Cheng"
     ],
-    "journal": "arXiv (Cornell University)",
+    "journal": "arXiv:1811.10632",
     "year": 2018,
-    "date": "2018-11-26",
+    "category": "Preprints",
     "doi": "https://doi.org/10.48550/arxiv.1811.10632",
     "pdf": "https://arxiv.org/pdf/1811.10632",
-    "summary": "Periodically driven quantum systems can realize novel phases of matter that do not exist in static settings. We study signatures of these drive-induced phases on the $(d+1)$-dimensional Floquet lattice, comprised of $d$ spatial dimensions plus the frequency domain. The average position of Floquet eigenstates along the frequency axis can be written in terms of a non-adiabatic Berry phase, which we interpret as frequency-domain polarization. We argue that whenever this polarization is quantized to a nontrivial value, the phase of matter cannot be continuously connected to a time-independent state and, as a consequence, it captures robust properties of its dynamics. We illustrate this in driven topological phases, such as superconducting wires and the anomalous Floquet Anderson insulator; as well as in driven symmetry-broken phases, such as time crystals. We further introduce a new dynamical phase of matter that we construct by imposing quantization conditions on its frequency-domain polarization. This illustrates the potential for using this kind of polarization as a tool to search for new driven phases of matter.",
-    "image": null
+    "summary": "We study signatures of drive-induced phases on the Floquet lattice. The average position of Floquet eigenstates along the frequency axis can be written in terms of a non-adiabatic Berry phase, which we interpret as frequency-domain polarization. Whenever this polarization is quantized to a nontrivial value, the phase cannot be continuously connected to a time-independent state."
   },
   {
-    "id": "https://openalex.org/W2744138385",
-    "title": "Observation of domain wall motion in a polycrystalline vortex lattice",
+    "id": "pub-1",
+    "title": "Robust Topological Invariants of Topological Crystalline Phases in the Presence of Impurities",
     "authors": [
-      "Malcolm Durkin",
       "Ian Mondragon-Shem",
-      "Taylor L. Hughes",
-      "Nadya Mason"
+      "Taylor L. Hughes"
     ],
-    "journal": "arXiv (Cornell University)",
-    "year": 2017,
-    "date": "2017-08-10",
-    "doi": "https://doi.org/10.48550/arxiv.1708.03082",
-    "pdf": "https://arxiv.org/pdf/1708.03082",
-    "summary": "We present measurements showing how disorder determines the dynamics of a vortex lattice. Using superconductor-normal-superconductor (SNS) arrays placed in finite magnetic fields, disorder is introduced by shifting the field away from values where the vortex lattice is commensurate with the SNS array. By applying a current to drive vortex motion, we observe a two-step transition at incommensurate fields: first from pinned vortices to lattice defect motion, and then from individual defect to bulk vortex lattice flow. This behavior is consistent with a polycrystalline vortex structure where defects form on the edges of crystalline domains. This demonstrates that a disordered, interacting vortex system can favor interface physics rather than a quasiperiodic regime.",
-    "image": null
+    "journal": "Phys. Rev. B 110, 035146",
+    "year": 2024,
+    "category": "Peer-Reviewed",
+    "doi": "https://doi.org/10.1103/physrevb.110.035146",
+    "pdf": null,
+    "summary": "We show that robust basis-independent topological invariants can be generically constructed for topological crystalline phases using projected symmetry operators. The real-space topological markers are exponentially localized to the fixed points of the spatial symmetry, protecting them against impurities."
   },
   {
-    "id": "https://openalex.org/W2619088898",
-    "title": "$\\Phi_0$-Magnetic Force Microscopy for Imaging and Control of Vortex Dynamics",
+    "id": "pub-2",
+    "title": "Local Imaging of Diamagnetism in Proximity-Coupled Niobium Nanoisland Arrays on Gold Thin Films",
+    "authors": [
+      "Logan Bishop-Van Horn",
+      "Irene P. Zhang",
+      "Emily N. Waite",
+      "Ian Mondragon-Shem",
+      "Scott Jensen",
+      "Junseok Oh",
+      "Tom Lippman",
+      "Malcolm Durkin",
+      "Taylor L. Hughes",
+      "Nadya Mason",
+      "Kathryn A. Moler",
+      "Ilya Sochnikov"
+    ],
+    "journal": "Phys. Rev. B 106, 054521",
+    "year": 2022,
+    "category": "Peer-Reviewed",
+    "doi": "https://doi.org/10.1103/physrevb.106.054521",
+    "pdf": "https://www.osti.gov/biblio/1884554",
+    "summary": "We study the effect of engineered disorder on the local magnetic response of proximity-coupled superconducting island arrays by comparing scanning SQUID susceptibility measurements to a junction network model."
+  },
+  {
+    "id": "pub-3",
+    "title": "Computer-Aided Quantization and Numerical Analysis of Superconducting Circuits",
+    "authors": [
+      "Sai Pavan Chitta",
+      "Tianpu Zhao",
+      "Ziwen Huang",
+      "Ian Mondragon-Shem",
+      "Jens Koch"
+    ],
+    "journal": "New J. Phys. 24, 103020",
+    "year": 2022,
+    "category": "Peer-Reviewed",
+    "doi": "https://doi.org/10.1088/1367-2630/ac94f2",
+    "pdf": "https://iopscience.iop.org/article/10.1088/1367-2630/ac94f2/pdf",
+    "summary": "We present work utilizing symbolic computer algebra and numerical diagonalization routines versatile enough to tackle a variety of superconducting circuits. Results are accessible through a newly released module of the scqubits package."
+  },
+  {
+    "id": "pub-4",
+    "title": "Fate of Quantum Many-Body Scars in the Presence of Disorder",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Maxim G. Vavilov",
+      "Ivar Martin"
+    ],
+    "journal": "PRX Quantum 2, 030349",
+    "year": 2021,
+    "category": "Peer-Reviewed",
+    "doi": "https://doi.org/10.1103/PRXQuantum.2.030349",
+    "pdf": "https://journals.aps.org/prxquantum/pdf/10.1103/PRXQuantum.2.030349",
+    "summary": "We study the stability of quantum many-body scars against disorder in the PXP model of Rydberg atoms. Scarred eigenstates persist at weak disorder but are eventually destroyed at strong disorder."
+  },
+  {
+    "id": "pub-5",
+    "title": "Imaging and Controlling Vortex Dynamics in Mesoscopic Superconductor–Normal-Metal–Superconductor Arrays",
     "authors": [
       "Tyler R. Naibert",
       "Hryhoriy Polshyn",
+      "Rita Garrido-Menacho",
       "Malcolm Durkin",
       "Brian Wolin",
-      "Rita Garrido-Menacho",
       "Victor Chua",
       "Ian Mondragon-Shem",
       "Taylor L. Hughes",
       "Nadya Mason",
       "Raffi Budakian"
     ],
-    "journal": "arXiv (Cornell University)",
-    "year": 2017,
-    "date": "2017-05-24",
-    "doi": null,
-    "pdf": "http://export.arxiv.org/pdf/1705.08956",
-    "summary": "Harnessing the properties of vortices in superconductors is crucial for fundamental science as well as technological applications; thus, it has been an ongoing goal to develop experimental techniques that can locally probe and control vortices. Here, we present a scanning probe technique that enables studies of vortex dynamics in superconducting systems by leveraging the resonant behavior of a raster-scanned, magnetic-tipped cantilever. Key features of this experimental platform are the high degree of tunability and the local nature of the probe. Applying this technique to lattices of superconductor island arrays on a metal, we obtain a variety of striking spatial patterns that encode information about the energy landscape for vortices in the system. We interpret these patterns in terms of local vortex dynamics, and extract the relative strengths of the characteristic energy scales in the system, such as the vortex-magnetic field and vortex-vortex interaction strengths, as well as the vortex chemical potential. We also demonstrate that the relative strengths of the interactions can be tuned. This experimental setup has the potential for future applications in more complex systems, as well as in the manipulation of vortex-bound Majorana fermions for quantum computation.",
-    "image": null
+    "journal": "Phys. Rev. B 103, 224526",
+    "year": 2021,
+    "category": "Peer-Reviewed",
+    "doi": "https://doi.org/10.1103/physrevb.103.224526",
+    "pdf": "https://arxiv.org/pdf/1705.08956",
+    "summary": "We use a scanning probe technique to study vortex dynamics in superconducting systems by leveraging the resonant behavior of a magnetic-tipped cantilever, obtaining spatial patterns that encode the vortex energy landscape."
   },
   {
-    "id": "https://openalex.org/W3160798730",
-    "title": "Polycrystalline order and disorder in vortex lattices in SNS arrays",
+    "id": "pub-6",
+    "title": "Dissipative Vortex Dynamics in Superconducting Arrays",
     "authors": [
       "Malcolm Durkin",
       "Ian Mondragon-Shem",
       "Taylor L. Hughes",
       "Nadya Mason"
     ],
-    "journal": "APS March Meeting Abstracts",
-    "year": 2017,
-    "date": "2017-03-01",
-    "doi": null,
-    "pdf": null,
-    "summary": null,
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W2342353946",
-    "title": "History-dependent dissipative vortex dynamics in superconducting arrays",
-    "authors": [
-      "Malcolm Durkin",
-      "Ian Mondragon-Shem",
-      "Serena Eley",
-      "Taylor L. Hughes",
-      "Nadya Mason"
-    ],
-    "journal": "Physical review. B./Physical review. B",
+    "journal": "Phys. Rev. B 94, 024510",
     "year": 2016,
-    "date": "2016-07-14",
+    "category": "Peer-Reviewed",
     "doi": "https://doi.org/10.1103/physrevb.94.024510",
     "pdf": "https://arxiv.org/pdf/1512.02704",
-    "summary": "In this study, we perform current (I)-voltage (V) measurements on low resistance superconductor-normal-superconductor arrays in finite magnetic fields, focusing on the dilute vortex population regime. We observe significant deviations from predicted behavior, notably the absence of a differential resistance peak near the vortex depinning current, and a broad linear I-V region with an extrapolated I intercept equal to the depinning current. Comparing these results to an overdamped molecular vortex model, we find that this behavior can be explained by the presence of a history-dependent dissipative force. Lastly, this approach has not been considered previously, to our knowledge, yet it is crucial for obtaining a correct description of the vortex dynamics in superconducting arrays.",
-    "image": null
+    "summary": "We perform current-voltage measurements on low resistance superconductor-normal-superconductor arrays in finite magnetic fields, finding that the behavior can be explained by a history-dependent dissipative force."
   },
   {
-    "id": "https://openalex.org/W2601827744",
-    "title": "Dissipative vortex dynamics in overdamped superconducting arrays",
-    "authors": [
-      "Malcolm Durkin",
-      "Ian Mondragon-Shem",
-      "Serena Eley",
-      "Taylor L. Hughes",
-      "Nadya Mason"
-    ],
-    "journal": "Bulletin of the American Physical Society",
-    "year": 2016,
-    "date": "2016-03-15",
-    "doi": null,
-    "pdf": null,
-    "summary": null,
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W3007015845",
-    "title": "Disordered topological crystalline phases",
-    "authors": [
-      "Ian Mondragon-Shem",
-      "Taylor L. Hughes"
-    ],
-    "journal": "APS",
-    "year": 2016,
-    "date": "2016-01-01",
-    "doi": null,
-    "pdf": null,
-    "summary": null,
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W2898930953",
-    "title": "Dissipative vortex dynamics in superconducting arrays",
-    "authors": [
-      "Malcolm Durkin",
-      "Ian Mondragon-Shem",
-      "Serena Eley",
-      "Taylor L. Hughes",
-      "Nadya Mason"
-    ],
-    "journal": "arXiv (Cornell University)",
-    "year": 2015,
-    "date": "2015-12-09",
-    "doi": null,
-    "pdf": "https://arxiv.org/abs/1512.02704v1",
-    "summary": "We perform current(I)-voltage(V) measurements on low resistance superconductor-normal-superconductor arrays in finite magnetic fields, focusing on the dilute vortex population regime. We observe significant deviations from predicted behavior, notably the absence of a differential resistance peak near the vortex de-pinning current, and a broad linear I-V region with an extrapolated I intercept equal to the de-pinning current. Comparing these results to an overdamped molecular vortex model, we find that this behavior can be explained by the presence of a history dependent dissipative force. This approach has not been considered previously, yet is crucial for obtaining a correct description of the vortex dynamics in superconducting arrays.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W1757659697",
-    "title": "Many-body mobility edge due to symmetry-constrained dynamics and strong interactions",
+    "id": "pub-7",
+    "title": "Many-Body Mobility Edge due to Symmetry-Constrained Dynamics and Strong Interactions",
     "authors": [
       "Ian Mondragon-Shem",
       "Arijeet Pal",
       "Taylor L. Hughes",
       "Chris R. Laumann"
     ],
-    "journal": "Physical Review B",
+    "journal": "Phys. Rev. B 92, 064203",
     "year": 2015,
-    "date": "2015-08-24",
+    "category": "Peer-Reviewed",
     "doi": "https://doi.org/10.1103/physrevb.92.064203",
     "pdf": "https://arxiv.org/pdf/1501.03824",
-    "summary": "We provide numerical evidence combined with an analytical understanding of\\nthe many-body mobility edge for the strongly anisotropic spin-1/2 XXZ model in\\na random magnetic field. The system dynamics can be understood in terms of\\nsymmetry-constrained excitations about parent states with ferromagnetic and\\nanti-ferromagnetic short range order. These two regimes yield vastly different\\ndynamics producing an observable, tunable many-body mobility edge. We compute a\\nset of diagnostic quantities that verify the presence of the mobility edge and\\ndiscuss how weakly correlated disorder can tune the mobility edge further.\\n",
-    "image": null
+    "summary": "We provide numerical evidence combined with an analytical understanding of the many-body mobility edge for the strongly anisotropic spin-1/2 XXZ model in a random magnetic field."
   },
   {
-    "id": "https://openalex.org/W2963838994",
-    "title": "Many-body mobility edge due to symmetry-constrained dynamics and strong interactions",
-    "authors": [
-      "Ian Mondragon-Shem",
-      "Arijeet Pal",
-      "Chris R. Laumann",
-      "Taylor L. Hughes"
-    ],
-    "journal": "UCL Discovery (University College London)",
-    "year": 2015,
-    "date": "2015-01-15",
-    "doi": "https://doi.org/10.48550/arxiv.1501.03824",
-    "pdf": "https://doi.org/10.48550/arxiv.1501.03824",
-    "summary": "We provide numerical evidence combined with an analytical understanding of the many-body mobility edge for the strongly anisotropic spin-1/2 XXZ model in a random magnetic field. The system dynamics can be understood in terms of symmetry-constrained excitations about parent states with ferromagnetic and anti-ferromagnetic short range order. These two regimes yield vastly different dynamics producing an observable, tunable many-body mobility edge. We compute a set of diagnostic quantities that verify the presence of the mobility edge and discuss how weakly correlated disorder can tune the mobility edge further.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W2323091718",
-    "title": "Signatures of metal-insulator and topological phase transitions in the entanglement of one-dimensional disordered fermions",
+    "id": "pub-8",
+    "title": "Entanglement of a 3D Generalization of the Kitaev Model on the Diamond Lattice",
     "authors": [
       "Ian Mondragon-Shem",
       "Taylor L. Hughes"
     ],
-    "journal": "Physical Review B",
+    "journal": "J. Stat. Mech. 2014, P10022",
     "year": 2014,
-    "date": "2014-09-26",
+    "category": "Peer-Reviewed",
+    "doi": "https://doi.org/10.1088/1742-5468/2014/10/P10022",
+    "pdf": null,
+    "summary": "We study the entanglement properties of a three-dimensional generalization of the Kitaev honeycomb model on the diamond lattice, characterizing topological and gapless phases using entanglement entropy and the entanglement spectrum."
+  },
+  {
+    "id": "pub-9",
+    "title": "Signatures of Metal-Insulator and Topological Phase Transitions in the Entanglement of One-Dimensional Disordered Fermions",
+    "authors": [
+      "Ian Mondragon-Shem",
+      "Taylor L. Hughes"
+    ],
+    "journal": "Phys. Rev. B 90, 104204",
+    "year": 2014,
+    "category": "Peer-Reviewed",
     "doi": "https://doi.org/10.1103/physrevb.90.104204",
     "pdf": "https://arxiv.org/pdf/1403.6129",
-    "summary": "We study one-dimensional disordered fermions that either undergo metal-insulator transitions or topological phase transitions to become trivial Anderson insulators. We focus on using entanglement to elucidate how the spatial, momentum, and internal degrees of freedom of fermions are affected by the presence of disorder in such cases. We develop entanglement tools that reveal the existence of metallic states in the presence of disorder and further show clear signatures of the corresponding localization transition even in the presence of interactions. In systems where the internal degrees of freedom are coupled with the motion of the electrons, topological phases develop. We subject a topological insulator model to different types of disorder and discuss how the topological aspects of the system can be captured through entanglement, even at strong disorder.",
-    "image": null
+    "summary": "We study one-dimensional disordered fermions undergoing metal-insulator or topological phase transitions, developing entanglement tools that reveal metallic states and show clear signatures of localization transitions even with interactions."
   },
   {
-    "id": "https://openalex.org/W1972033316",
+    "id": "pub-10",
     "title": "Topological Criticality in the Chiral-Symmetric AIII Class at Strong Disorder",
     "authors": [
       "Ian Mondragon-Shem",
-      "Taylor L. Hughes",
       "Juntao Song",
+      "Taylor L. Hughes",
       "Emil Prodan"
     ],
-    "journal": "Physical Review Letters",
+    "journal": "Phys. Rev. Lett. 113, 046802",
     "year": 2014,
-    "date": "2014-07-23",
+    "category": "Peer-Reviewed",
     "doi": "https://doi.org/10.1103/physrevlett.113.046802",
     "pdf": "https://arxiv.org/pdf/1311.5233",
-    "summary": "The chiral AIII symmetry class in the classification table of topological insulators contains topological phases classified by a winding number \u03bd for each odd space dimension. An open problem for this class is the characterization of the phases and phase boundaries in the presence of strong disorder. In this work, we derive a covariant real-space formula for \u03bd and, using an explicit one-dimensional disordered topological model, we show that \u03bd remains quantized and nonfluctuating when disorder is turned on, even though the bulk energy spectrum is completely localized. Furthermore, \u03bd remains robust even after the insulating gap is filled with localized states, but when the disorder is increased even further, an abrupt change of \u03bd to a trivial value is observed. Using exact analytic calculations, we show that this marks a critical point where the localization length diverges. As such, in the presence of disorder, the AIII class displays markedly different physics from everything known to date, with robust invariants being carried entirely by localized states and bulk extended states emerging from an absolutely localized spectrum. Detailed maps and a clear physical description of the phases and phase boundaries are presented based on numerical and exact analytic calculations.",
-    "image": null
+    "summary": "We derive a covariant real-space formula for the winding number and show it remains quantized even when the bulk spectrum is completely localized. An abrupt change to a trivial value marks a critical point where the localization length diverges."
   },
   {
-    "id": "https://openalex.org/W2284569297",
-    "title": "Absence of levitation and annihilation at the topological phase transition of a disordered one-dimensional model in class AIII",
-    "authors": [
-      "Ian Mondragon-Shem",
-      "Juntao Song",
-      "Taylor L. Hughes",
-      "Emil Prodan"
-    ],
-    "journal": "Bulletin of the American Physical Society",
-    "year": 2014,
-    "date": "2014-03-03",
-    "doi": null,
-    "pdf": null,
-    "summary": null,
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W1988370336",
+    "id": "pub-11",
     "title": "Characterizing Disordered Fermion Systems Using the Momentum-Space Entanglement Spectrum",
     "authors": [
       "Ian Mondragon-Shem",
       "Mayukh Nilay Khan",
       "Taylor L. Hughes"
     ],
-    "journal": "Physical Review Letters",
+    "journal": "Phys. Rev. Lett. 110, 046806",
     "year": 2013,
-    "date": "2013-01-25",
+    "category": "Peer-Reviewed",
     "doi": "https://doi.org/10.1103/physrevlett.110.046806",
     "pdf": "https://arxiv.org/pdf/1206.3313",
-    "summary": "The use of quantum entanglement to study condensed matter systems has been flourishing in critical systems and topological phases. Additionally, using real-space entanglement one can characterize localized and delocalized phases of disordered fermion systems. Here we instead propose the momentum-space entanglement spectrum as a means of characterizing disordered models. We show that localization in one dimension can be characterized by the momentum space entanglement between left and right movers and illustrate our methods using explicit models with spatially correlated disorder that exhibit phases which avoid complete Anderson localization. The momentum space entanglement spectrum clearly reveals the location of delocalized states in the energy spectrum, can be used as a signature of the phase transition between a delocalized and localized phase, and only requires a single numerical diagonalization to yield clear results.",
-    "image": null
+    "summary": "We propose the momentum-space entanglement spectrum as a means of characterizing disordered models, showing that localization in one dimension can be characterized by the momentum space entanglement between left and right movers."
   },
   {
-    "id": "https://openalex.org/W2995641950",
-    "title": "Characterizing disordered fermion systems using the momentum-space entanglement spectrum",
-    "authors": [
-      "Ian Mondragon-Shem",
-      "Mayukh Nilay Khan",
-      "Taylor L. Hughes"
-    ],
-    "journal": "arXiv (Cornell University)",
-    "year": 2012,
-    "date": "2012-06-14",
-    "doi": "https://doi.org/10.48550/arxiv.1206.3313",
-    "pdf": "https://doi.org/10.48550/arxiv.1206.3313",
-    "summary": "The use of quantum entanglement to study condensed matter systems has been flourishing in critical systems and topological phases. Additionally, using real-space entanglement entropies and entanglement spectra one can characterize localized and delocalized phases of disordered fermion systems. Here we instead propose the momentum-space entanglement spectrum as a means of characterizing disordered models. We show that localization in 1D arises from the momentum space entanglement between left and right movers and illustrate our methods using explicit models with spatially correlated disorder that exhibit phases which avoid complete Anderson localization. The momentum space entanglement spectrum clearly reveals the location of delocalized states in the energy spectrum and can be used as a signature of the phase transition between a delocalized and localized phase.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W2074041318",
-    "title": "Unconventional Bose\u2014Einstein Condensations from Spin-Orbit Coupling",
+    "id": "pub-12",
+    "title": "Unconventional Bose-Einstein Condensations from Spin-Orbit Coupling",
     "authors": [
       "Congjun Wu",
       "Ian Mondragon-Shem",
       "Xiang-Fa Zhou"
     ],
-    "journal": "Chinese Physics Letters",
+    "journal": "Chinese Physics Letters 28, 097102",
     "year": 2011,
-    "date": "2011-09-01",
+    "category": "Peer-Reviewed",
     "doi": "https://doi.org/10.1088/0256-307x/28/9/097102",
     "pdf": "https://iopscience.iop.org/article/10.1088/0256-307X/28/9/097102/pdf",
-    "summary": "According to the \"no-node\" theorem, many-body ground state wavefunctions of conventional Bose-Einstein condensations (BEC) are positive-definite, thus time-reversal symmetry cannot be spontaneously broken. We find that multi-component bosons with spin-orbit coupling provide an unconventional type of BECs beyond this paradigm. We focus on the subtle case of isotropic Rashba spin-orbit coupling and the spin-independent interaction. In the limit of the weak confining potential, the condensate wavefunctions are frustrated at the Hartree-Fock level due to the degeneracy of the Rashba ring. Quantum zero-point energy selects the spin-spiral type condensate through the \"order-from-disorder\" mechanism. In a strong harmonic confining trap, the condensate spontaneously generates a half-quantum vortex combined with the skyrmion type of spin texture. In both cases, time-reversal symmetry is spontaneously broken. These phenomena can be realized in both cold atom systems with artificial spin-orbit couplings generated from atom-laser interactions and exciton condensates in semi-conductor systems.",
-    "image": null
+    "summary": "We find that multi-component bosons with spin-orbit coupling provide an unconventional type of BEC where the condensate spontaneously generates a half-quantum vortex combined with skyrmion-type spin texture, breaking time-reversal symmetry."
   },
   {
-    "id": "https://openalex.org/W1662673147",
-    "title": "Quantum phase transition of light as a control of the entanglement between interacting quantum dots",
-    "authors": [
-      "Angela M. Barragan",
-      "Carlos Andres Vera-Ciro",
-      "Ian Mondragon-Shem"
-    ],
-    "journal": "Data Archiving and Networked Services (DANS)",
-    "year": 2011,
-    "date": "2011-03-25",
-    "doi": null,
-    "pdf": null,
-    "summary": "We study coupled quantum dots arranged in a photonic crystal, interacting with light which undergoes a quantum phase transition. At the mean-field level for the infinite lattice, we compute the concurrence of the quantum dots as a measure of their entanglement. We find that this quantity smoothly changes in the vicinity of the phase transition, and in a step-like fashion in the Mott-insulator phase. This behavior can be externally monitored through the second-order correlation function for the light in each lattice site. For the finite case, we discuss boundary induced effects using a mean-field ansatz, as well as the impact of having finite temperatures on the entanglement of the quantum dots.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W144466649",
-    "title": "Phase transitions of spin-orbit coupled Bose-Einstein Condensate in an external trap potential",
-    "authors": [
-      "Xiang-Fa Zhou",
-      "Ian Mondragon-Shem",
-      "Congjun Wu"
-    ],
-    "journal": "Bulletin of the American Physical Society",
-    "year": 2011,
-    "date": "2011-03-23",
-    "doi": null,
-    "pdf": null,
-    "summary": null,
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W1547712983",
-    "title": "Efficient calculation of Coulomb matrix elements for bilayers of confined charge carriers with arbitrary spatial separation",
+    "id": "pub-13",
+    "title": "Efficient Calculation of Coulomb Matrix Elements for Bilayers of Confined Charge Carriers with Arbitrary Spatial Separation",
     "authors": [
       "Ian Mondragon-Shem",
-      "Boris A. Rodr\u00edguez",
-      "Francisco Eugenio L\u00f3pez Giraldo"
+      "Boris A. Rodríguez",
+      "Francisco Eugenio López Giraldo"
     ],
-    "journal": "Computer Physics Communications",
+    "journal": "Computer Physics Communications 181, 1510–1516",
     "year": 2010,
-    "date": "2010-05-12",
+    "category": "Peer-Reviewed",
     "doi": "https://doi.org/10.1016/j.cpc.2010.05.001",
     "pdf": "https://arxiv.org/pdf/0911.5363",
-    "summary": null,
-    "image": null
+    "summary": null
   },
   {
-    "id": "https://openalex.org/W122348470",
-    "title": "Unconventional Bose-Einstein condensation with Rashba coupling in optical lattices",
+    "id": "pub-14",
+    "title": "Coulomb Correlations of a Few Body System of Spatially Separated Charges",
     "authors": [
       "Ian Mondragon-Shem",
-      "Boris A. Rodr\u00edguez",
-      "Congjun Wu"
+      "Boris A. Rodríguez",
+      "Francisco Eugenio López Giraldo"
     ],
-    "journal": "Bulletin of the American Physical Society",
-    "year": 2010,
-    "date": "2010-03-19",
-    "doi": null,
-    "pdf": null,
-    "summary": null,
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W1757417287",
-    "title": "Ultracold atoms in optical lattices induced by photonic crystals",
-    "authors": [
-      "Angela M. Barragan",
-      "Ian Mondragon-Shem",
-      "Herbert Vinck-Posada"
-    ],
-    "journal": "arXiv (Cornell University)",
+    "journal": "J. Phys.: Conf. Ser. 193, 012133",
     "year": 2009,
-    "date": "2009-11-27",
-    "doi": "https://doi.org/10.48550/arxiv.0911.5185",
-    "pdf": "https://arxiv.org/pdf/0911.5185",
-    "summary": "We propose a way of generating optical lattices embedded in photonic crystals. By setting up extended modes in photonic crystals, ultracold atoms can be mounted in different types of field intensity distributions. This novel way of constructing optical lattices can be used to produce more elaborate periodic potentials by manufacturing appropriate geometries of photonic crystals. We exemplify this with a square lattice and comment on the possibility of using geometries with defects.",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W2094497171",
-    "title": "Coulomb correlations of a few body system of spatially separated charges",
-    "authors": [
-      "Ian Mondragon-Shem",
-      "Boris A. Rodr\u00edguez",
-      "Francisco Eugenio L\u00f3pez Giraldo"
-    ],
-    "journal": "Journal of Physics Conference Series",
-    "year": 2009,
-    "date": "2009-11-01",
+    "category": "Peer-Reviewed",
     "doi": "https://doi.org/10.1088/1742-6596/193/1/012133",
     "pdf": "https://iopscience.iop.org/article/10.1088/1742-6596/193/1/012133/pdf",
-    "summary": "ABSTRACT: Hartree-Fock and Hartree-Fock-Bogoliubov study of a few body system of spatially separated charge carriers was carried out. Using these variational states, we compute an approximation to the correlation energy of a finite system of electron-hole pairs. This energy is shown as a function of the Coulomb coupling and the interplane distance. We discuss how the correlation energy can be used to theoretically determine the formation of indirect excitons in semiconductors which is relevant for collective phenomena such as Bose-Einstein condensation (BEC).",
-    "image": null
-  },
-  {
-    "id": "https://openalex.org/W88281328",
-    "title": "Spontaneous generation of a half-quantum vortex in spin-orbit coupled Bose-Einstein condensates",
-    "authors": [
-      "Congjun Wu",
-      "Ian Mondragon-Shem"
-    ],
-    "journal": "arXiv (Cornell University)",
-    "year": 2008,
-    "date": "2008-09-20",
-    "doi": null,
-    "pdf": "https://arxiv.org/pdf/0809.3532",
-    "summary": "According to the no-node theorem, many-body ground state wavefunctions of conventional Bose-Einstein condensations (BEC) are positive-definite, thus time-reversal symmetry cannot be spontaneously broken. We find that multi-component bosons with spin-orbit coupling provide an unconventional type of BECs beyond this paradigm. We focus on the subtle case of isotropic Rashba spin-orbit coupling and the spin-independent interaction. In the limit of the weak confining potential, the condensate wavefunctions are frustrated at the Hartree-Fock level due to the degeneracy of the Rashba ring. Quantum zero-point energy selects the spin-spiral type condensate through the order-from-disorder mechanism. In a strong harmonic confining trap, the condensate spontaneously generates a half-quantum vortex combined with the skyrmion type of spin texture. In both cases, time-reversal symmetry is spontaneously broken. These phenomena can be realized in both cold atom systems with artificial spin-orbit couplings generated from atom-laser interactions and exciton condensates in semi-conductor systems.",
-    "image": null
+    "summary": "Hartree-Fock and Hartree-Fock-Bogoliubov study of a few body system of spatially separated charge carriers. We compute the correlation energy and discuss how it can determine the formation of indirect excitons relevant to Bose-Einstein condensation."
   }
 ]

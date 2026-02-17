@@ -63,21 +63,21 @@ export default function SuperconductingCircuits() {
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Floquet Engineering of Qubits</h2>
                             <p className="text-gray-600 dark:text-gray-300">
-                                Floquet engineering uses time-periodic drives to modify the effective Hamiltonian of a quantum system. In the context of superconducting circuits, this technique enables the creation of qubit properties that are inaccessible in static configurations. By carefully engineering periodic modulations of circuit parameters, we can design protected qubits with enhanced coherence times, implement fast high-fidelity gates, and stabilize quantum states. Our work develops systematic frameworks for constructing time-dependent Hamiltonians of microwave-driven Josephson circuits, going beyond lumped-element descriptions to capture the behavior of realistic devices in complex electromagnetic environments.
+                                Floquet engineering uses time-periodic drives to modify the effective Hamiltonian of a quantum system. In the context of superconducting circuits, this technique enables the creation of qubit properties that are inaccessible in static configurations. By carefully engineering periodic modulations of circuit parameters, we can design novel qubits with enhanced coherence times. Our work develops systematic frameworks for constructing time-dependent Hamiltonians of microwave-driven Josephson circuits, providing a powerful tool for qubit design and control.
                             </p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Correlated Errors &amp; Error Mitigation</h2>
                             <p className="text-gray-600 dark:text-gray-300">
-                                As quantum processors scale to larger numbers of qubits, correlated errors—arising from cross-talk, frequency crowding, and drive-induced effects—become a dominant source of infidelity. Strong parametric drives can induce uncontrolled excitations (&quot;ionization&quot;) that compromise gate and readout fidelity. Our research characterizes these phenomena through the lens of Floquet theory and drive-induced chaotic dynamics, providing a unifying framework for understanding strong-drive limitations. This work establishes fundamental constraints on parametric control and offers design principles for mitigating drive-induced decoherence in next-generation quantum processors.
+                                As quantum processors scale to larger numbers of qubits, correlated errors—arising from cross-talk, frequency crowding, and strong drives become a dominant source of infidelity.  Our research characterizes these phenomena through the lens of Floquet theory and chaotic dynamics, providing a unifying framework for understanding strongly-driven quantum processors. This work establishes fundamental constraints on parametric control and offers design principles for mitigating drive-induced decoherence in next-generation quantum processors.
                             </p>
                         </section>
 
                         <section>
                             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Quantum Simulation with Josephson Junction Arrays</h2>
                             <p className="text-gray-600 dark:text-gray-300">
-                                Arrays of Josephson junctions and superconductor-normal metal-superconductor (SNS) structures serve as a versatile platform for studying many-body quantum phenomena. We investigate the vortex dynamics, phase diagrams, and magnetic properties of these arrays, exploring how engineered disorder affects the superconducting response. Our experimental and theoretical studies of proximity-coupled superconducting island arrays reveal spatially inhomogeneous diamagnetic responses and vortex dynamics that serve as model systems for understanding two-dimensional superconductivity and disorder effects.
+                                Arrays of Josephson junctions and superconductor-normal metal-superconductor (SNS) structures serve as a versatile platform for studying many-body quantum phenomena. We investigate the vortex dynamics, phase diagrams, and magnetic properties of these arrays, exploring how engineered disorder affects the superconducting response.
                             </p>
                         </section>
                     </div>
