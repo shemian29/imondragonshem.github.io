@@ -1,5 +1,33 @@
 [
   {
+    "id": "preprint-0",
+    "title": "Systematic Construction of Time-Dependent Hamiltonians for Microwave-Driven Josephson Circuits",
+    "authors": [
+      "Yao Lu",
+      "Tianpu Zhao",
+      "André Vallières",
+      "Kevin C. Smith",
+      "Daniel Weiss",
+      "Xinyuan You",
+      "Yaxing Zhang",
+      "Suhas Ganjam",
+      "Aniket Maiti",
+      "John W.O. Garmon",
+      "Shantanu Mundhada",
+      "Ziwen Huang",
+      "Ian Mondragon-Shem",
+      "S.M. Girvin",
+      "Jens Koch",
+      "Robert J. Schoelkopf"
+    ],
+    "journal": "arXiv:2512.20743",
+    "year": 2025,
+    "category": "Preprints",
+    "doi": "https://doi.org/10.48550/arxiv.2512.20743",
+    "pdf": "https://arxiv.org/pdf/2512.20743",
+    "summary": "We present a systematic framework for constructing time-dependent Hamiltonians of microwave-driven Josephson circuits, enabling accurate modeling and design of parametrically driven superconducting quantum processors."
+  },
+  {
     "id": "preprint-1",
     "title": "Exceeding the Parametric Drive Strength Threshold in Nonlinear Circuits",
     "authors": [

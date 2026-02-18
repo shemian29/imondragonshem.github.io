@@ -16,7 +16,7 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">
             Mondragon-Shem
-            <span className="block text-accent mt-2">Quantum Engineering Group</span>
+            <span className="block text-accent mt-2">Quantum Science and Engineering Group</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
             Exploring the frontiers of quantum information science, superconducting circuits, and topological phases of matter.
