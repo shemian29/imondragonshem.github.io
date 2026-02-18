@@ -63,28 +63,21 @@ export default function TopologicalPhases() {
 
                 <div className="prose dark:prose-invert max-w-none">
                     <p className="text-xl text-gray-600 dark:text-gray-300 mb-12">
-                        Topological phases of matter are characterized by global quantum properties that are robust against local perturbations and disorder. Our group studies topological insulators, topological superconductors, and the role of disorder in driving quantum phase transitions.
+                        We develop theoretical tools for characterizing and engineering quantum matter, including phases defined by topology and symmetry protection. Our emphasis is on identifying structures that remain robust in realistic settings and support future quantum functionality.
                     </p>
 
                     <div className="space-y-12">
                         <section>
+                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Entanglement of Quantum Matter</h2>
+                            <p className="text-gray-600 dark:text-gray-300">
+                                We use entanglement to characterize many-body quantum matter. Entanglement spectra and entropies can diagnose hidden order, identify topological phases, and detect phase transitions. We develop entanglement-based tools for analyzing correlations, with particular emphasis on connections to quantum sensing.
+                            </p>
+                        </section>
+
+                        <section>
                             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Topological Insulators &amp; Superconductors</h2>
                             <p className="text-gray-600 dark:text-gray-300">
-                                Topological insulators are materials that are insulating in their bulk but conduct electricity along their edges or surfaces through symmetry-protected boundary states. Topological superconductors are the superconducting analog, hosting exotic Majorana modes at their boundaries—quasiparticles that are their own antiparticles and obey non-Abelian statistics. These Majorana modes are of intense interest for topological quantum computation, as they can encode quantum information in a way that is inherently protected from local noise. Our research develops theoretical tools such as topological markers and projected symmetry operators to characterize these phases, even in the absence of translational invariance.
-                            </p>
-                        </section>
-
-                        <section>
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Disorder-Induced Criticality</h2>
-                            <p className="text-gray-600 dark:text-gray-300">
-                                Real materials are never perfectly ordered—impurities, defects, and randomness are always present. Rather than simply destroying topological order, disorder can play a constructive role: it can induce phase transitions between topologically distinct phases, modify critical properties, and even stabilize new phases. We have shown that topological invariants constructed from projected symmetry operators remain robust against impurities located away from spatial symmetry fixed points, providing a practical way to characterize disordered topological crystalline phases. Our work also revealed critical behavior at the topological phase transition of disordered one-dimensional systems, including unexpected absence of levitation and annihilation of critical states.
-                            </p>
-                        </section>
-
-                        <section>
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Quantum Phase Transitions &amp; Entanglement</h2>
-                            <p className="text-gray-600 dark:text-gray-300">
-                                Quantum phase transitions occur at zero temperature and are driven by quantum fluctuations rather than thermal fluctuations. We use quantum entanglement as a powerful diagnostic tool to characterize these transitions. Our work introduced the momentum-space entanglement spectrum as a means of characterizing disordered fermion systems: by measuring the entanglement between left and right movers in momentum space, we can identify localized and delocalized phases, detect phase transitions, and map out the energy spectrum of delocalized states—all from a single numerical diagonalization.
+                                We study topological phases in quantum many-body systems, with a focus on inhomogeneous topological phases. Our work uses topological invariants, Berry phases, and entanglement-based diagnostics to characterize topology in settings where spatial structure and disorder play an essential role. We also seek to understand Majorana modes in novel topological superconductors.
                             </p>
                         </section>
                     </div>

@@ -56,28 +56,28 @@ export default function SuperconductingCircuits() {
 
                 <div className="prose dark:prose-invert max-w-none">
                     <p className="text-xl text-gray-600 dark:text-gray-300 mb-12">
-                        Superconducting circuits built from Josephson junctions are one of the most promising platforms for scalable quantum computing. Our group develops theoretical tools and models to design next-generation superconducting qubits and quantum processors.
+                        At present, we develop theoretical models and design tools for superconducting quantum processors. Our focus is on capturing realistic processor physics in ways that inform next-generation qubit design and operation.
                     </p>
 
                     <div className="space-y-12">
                         <section>
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Floquet Engineering of Qubits</h2>
+                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Many-Body Quantum Dynamics in Quantum Processors</h2>
                             <p className="text-gray-600 dark:text-gray-300">
-                                Floquet engineering uses time-periodic drives to modify the effective Hamiltonian of a quantum system. In the context of superconducting circuits, this technique enables the creation of qubit properties that are inaccessible in static configurations. By carefully engineering periodic modulations of circuit parameters, we can design novel qubits with enhanced coherence times. Our work develops systematic frameworks for constructing time-dependent Hamiltonians of microwave-driven Josephson circuits, providing a powerful tool for qubit design and control.
+                                We study how collective many-body dynamics emerges as superconducting processors scale to larger numbers of coupled qubits. Using tools from Floquet theory and random matrix theory, we characterize driven, interacting dynamics in realistic architectures and identify constraints on control and performance, including drive-induced errors.
                             </p>
                         </section>
 
                         <section>
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Correlated Errors &amp; Error Mitigation</h2>
+                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Protected Qubits</h2>
                             <p className="text-gray-600 dark:text-gray-300">
-                                As quantum processors scale to larger numbers of qubits, correlated errors—arising from cross-talk, frequency crowding, and strong drives become a dominant source of infidelity.  Our research characterizes these phenomena through the lens of Floquet theory and chaotic dynamics, providing a unifying framework for understanding strongly-driven quantum processors. This work establishes fundamental constraints on parametric control and offers design principles for mitigating drive-induced decoherence in next-generation quantum processors.
+                                We study mechanisms for building qubits that are intrinsically robust to noise. In particular, we investigate encodings with disjoint support that reduce sensitivity to local error processes, and we analyze when such protection can remain compatible with practical control and readout.
                             </p>
                         </section>
 
                         <section>
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Quantum Simulation with Josephson Junction Arrays</h2>
+                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Semiclassical Analysis of Superconducting Circuits</h2>
                             <p className="text-gray-600 dark:text-gray-300">
-                                Arrays of Josephson junctions and superconductor-normal metal-superconductor (SNS) structures serve as a versatile platform for studying many-body quantum phenomena. We investigate the vortex dynamics, phase diagrams, and magnetic properties of these arrays, exploring how engineered disorder affects the superconducting response.
+                                We develop semiclassical methods for analyzing superconducting circuits as engineered nonlinear oscillators governed by Josephson physics. These approaches provide interpretable, quantitative insight in regimes where fully quantum modeling is possible but less transparent and more computationally demanding.
                             </p>
                         </section>
                     </div>

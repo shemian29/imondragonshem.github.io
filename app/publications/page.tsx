@@ -14,13 +14,10 @@ interface Publication {
     summary: string | null;
 }
 
-const categories = ['In Preparation', 'Preprints', 'Peer-Reviewed'];
-
 export default function Publications() {
-    const grouped = categories.reduce((acc, cat) => {
-        acc[cat] = (pubsData as Publication[]).filter((p) => p.category === cat);
-        return acc;
-    }, {} as Record<string, Publication[]>);
+    const pubs = (pubsData as Publication[])
+        .slice()
+        .sort((a, b) => b.year - a.year);
 
     return (
         <div className="min-h-screen">
@@ -34,38 +31,30 @@ export default function Publications() {
             </section>
 
             <div className="bg-gray-50 dark:bg-gray-950 py-16">
-            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-
-                {categories.map((category) => (
-                    <div key={category} className="mb-12">
-                        <h2 className="text-2xl font-bold text-primary dark:text-white mb-6 border-b border-gray-200 dark:border-gray-700 pb-3">{category}</h2>
-                        <div className="space-y-6">
-                            {grouped[category].map((pub) => (
-                                <div key={pub.id} className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:border-accent/50 transition-all hover:shadow-md">
-                                    <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
-                                        {pub.title}
-                                    </h3>
-                                    <p className="text-gray-600 dark:text-gray-300 mb-3 text-sm">
-                                        {pub.authors.join(', ')}
-                                    </p>
-                                    <div className="flex flex-wrap items-center gap-4 text-sm mb-3">
-                                        <span className="font-medium text-primary dark:text-gray-200 italic">
-                                            {pub.journal}{pub.category !== 'In Preparation' ? ` (${pub.year})` : ''}
-                                        </span>
-                                        {(pub.doi || pub.pdf) && (
-                                            <Link href={pub.doi || pub.pdf || '#'} className="flex items-center gap-1 text-accent hover:text-accent-hover">
-                                                <ExternalLink className="h-4 w-4" /> View Paper
-                                            </Link>
-                                        )}
-                                    </div>
-                                    {pub.summary && (
-                                        <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                                            {pub.summary}
-                                        </p>
-                                    )}
-                                </div>
-                            ))}
+            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
+                {pubs.map((pub) => (
+                    <div key={pub.id} className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow-sm border border-gray-100 dark:border-gray-800 hover:border-accent/50 transition-all hover:shadow-md">
+                        <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
+                            {pub.title}
+                        </h3>
+                        <p className="text-gray-600 dark:text-gray-300 mb-3 text-sm">
+                            {pub.authors.join(', ')}
+                        </p>
+                        <div className="flex flex-wrap items-center gap-4 text-sm mb-3">
+                            <span className="font-medium text-primary dark:text-gray-200 italic">
+                                {pub.journal} ({pub.year})
+                            </span>
+                            {(pub.doi || pub.pdf) && (
+                                <Link href={pub.doi || pub.pdf || '#'} className="flex items-center gap-1 text-accent hover:text-accent-hover">
+                                    <ExternalLink className="h-4 w-4" /> View Paper
+                                </Link>
+                            )}
                         </div>
+                        {pub.summary && (
+                            <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                                {pub.summary}
+                            </p>
+                        )}
                     </div>
                 ))}
             </div>

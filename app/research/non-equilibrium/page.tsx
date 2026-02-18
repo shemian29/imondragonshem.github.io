@@ -56,28 +56,28 @@ export default function NonEquilibrium() {
 
                 <div className="prose dark:prose-invert max-w-none">
                     <p className="text-xl text-gray-600 dark:text-gray-300 mb-12">
-                        When quantum systems are driven out of equilibrium, they can exhibit novel phases of matter with no static counterpart. Our group investigates the rich physics of driven quantum systems, non-ergodic dynamics, and their applications to quantum technologies.
+                        We study non-equilibrium quantum phenomena arising from strong driving, strong interactions, and coupling to structured environments. Our focus is on theoretical tools that connect these effects, including phases with no static counterpart, to emerging quantum technologies.
                     </p>
 
                     <div className="space-y-12">
                         <section>
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Driven Quantum Phases &amp; Floquet Systems</h2>
-                            <p className="text-gray-600 dark:text-gray-300">
-                                Periodically driven (Floquet) quantum systems can realize phases of matter that have no equilibrium counterpart, such as time crystals and anomalous Floquet topological insulators. We study signatures of these drive-induced phases on the Floquet lattice—comprised of spatial dimensions plus the frequency domain. By introducing the concept of frequency-domain polarization, defined through a non-adiabatic Berry phase, we identify a quantized invariant that distinguishes genuinely driven phases from those continuously connected to static states. This framework has been applied to characterize driven topological phases and symmetry-broken phases such as time crystals.
-                            </p>
-                        </section>
-
-                        <section>
-                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Non-Ergodic Systems &amp; Quantum Many-Body Scars</h2>
-                            <p className="text-gray-600 dark:text-gray-300">
-                                Isolated quantum systems are generically expected to thermalize under their own dynamics—a property known as ergodicity. However, certain systems violate this expectation. Many-body localization (MBL) and quantum many-body scars are two prominent mechanisms for ergodicity breaking. In MBL systems, strong disorder prevents thermalization entirely, while quantum many-body scars are special non-thermal eigenstates embedded in an otherwise ergodic spectrum. We have provided numerical evidence for many-body mobility edges—energy-dependent boundaries between ergodic and localized behavior—arising from symmetry-constrained dynamics and strong interactions in spin models. These phenomena have deep implications for quantum information storage and the stability of quantum coherence.
-                            </p>
-                        </section>
-
-                        <section>
                             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Quantum Batteries</h2>
                             <p className="text-gray-600 dark:text-gray-300">
-                                Quantum batteries are energy storage devices that leverage quantum mechanical effects—including entanglement, coherence, and many-body interactions—to potentially achieve advantages over classical energy storage. We investigate how collective quantum effects in driven many-body systems can be harnessed to optimize charging speed, energy capacity, and work extraction. This research connects fundamental questions about quantum thermodynamics to practical applications in quantum technologies.
+                                We study quantum batteries, meaning quantum systems designed for energy storage and controlled charging and discharging. We examine how coherence, entanglement, and many-body interactions affect key performance metrics such as charging power, scalability, and robustness.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Non-Ergodic Quantum Dynamics</h2>
+                            <p className="text-gray-600 dark:text-gray-300">
+                                We study non-ergodic dynamics in isolated quantum systems, where thermalization can fail and memory of initial conditions can persist. We focus on mechanisms such as many-body localization (MBL) and constrained dynamics, where kinematic constraints and localization can lead to novel non-equilibrium behavior relevant to coherence stability and the foundations of quantum statistical mechanics.
+                            </p>
+                        </section>
+
+                        <section>
+                            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Driven Floquet Systems</h2>
+                            <p className="text-gray-600 dark:text-gray-300">
+                                We investigate periodically driven (Floquet) systems that realize phases with no equilibrium counterpart, including discrete time crystals and anomalous Floquet topological phases. Using the Floquet lattice viewpoint, along with frequency-domain polarization and non-adiabatic Berry phases, we study quantized invariants that distinguish driven phases from those continuously connected to static states.
                             </p>
                         </section>
                     </div>
