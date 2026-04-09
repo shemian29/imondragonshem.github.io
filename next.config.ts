@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 
-const basePath = process.env.GITHUB_ACTIONS ? "/imondragonshem.github.io" : "";
-
 const nextConfig: NextConfig = {
   output: "export",
-  basePath,
+  basePath: "",
   env: {
-    NEXT_PUBLIC_BASE_PATH: basePath,
+    NEXT_PUBLIC_BASE_PATH: "",
   },
   images: {
     unoptimized: true,
